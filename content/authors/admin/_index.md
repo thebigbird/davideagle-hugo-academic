@@ -1,39 +1,47 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: David E. Eagle, Ph.D.
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Assistant Research Professor
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: Duke Global Health Institute
+  url: https://globalhealth.duke.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Theological Education
+- Clergy Health and Wellbeing
+- The Social Organization of North American Religion
+- Racial Inequality in Religious Organizations
+- Quantitative Research Methods
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Sociology
+    institution: Duke University
+    year: 2015
+  - course: MA in Sociology
+    institution: Duke University
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: Th.M.
+    institution: Duke Divinity School
     year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: M.Div.
+    institution: Fresno Pacific Biblical Seminary
+    year: 2002
+  - course: B.Sc. in Mechanical Engineering
+    institution: University of Alberta
+    year: 1997
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -45,7 +53,7 @@ social:
   link: '/#contact'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://twitter.com/davideaglephd
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -59,9 +67,9 @@ social:
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
 # and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: uploads/resume.pdf
+- icon: cv
+  icon_pack: ai
+  link: files/cv/EagleCV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -70,8 +78,14 @@ email: ""
 highlight_name: false
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assistant Research Professor in the [Duke Global Health Institute](http://globalhealth.duke.edu) and a faculty affiliate at the [Center for Health Policy and Inequalities Research](http://www.chpir.org). In partnership with [Duke Divinity School](http://divinity.duke.edu), [Rae Jean Proeschold-Bell](https://globalhealth.duke.edu/people/proeschold-bell-rae-jean) and I help lead the [Duke Clergy Health Initiative](https://divinity.duke.edu/initiatives/clergy-health-initiative), a world leader in researching and designing interventions for pastors and religious leaders.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am an expert on the health of religious clergy, the changing role of churches in North American society and the implications of these trends for the professional training of ministers. I have done significant work on burnout, depression and social support. A major strand of my research explores how structural racism impacts the experience of Black clergy.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+I am Principle Investigator of [The Seminary to Early Ministry Study](http://semstudy.org), a multi-year, multi-cohort study seeking to understand how seminary impacts the health, occupational wellbeing, theology, and career trajectories of students.
+
+Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data. I am one of the lead methodologists on a large respondent-driven sampling project of sexual and gender minority populations in Kenya, Brazil and Vietnam.
+
+My research is published in the Journal of Religion and Health, the Journal of Social and Personal Relationships, the Annals of Behavioral Medicine, the American Journal of Preventive Medicine, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, and the Review of Religious Research.
+
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv/EagleCV.pdf" "newtab" >}}resumé{{< /staticref >}}.

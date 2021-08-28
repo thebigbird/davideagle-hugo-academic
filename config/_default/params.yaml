@@ -7,15 +7,15 @@
 
 theme: minimal
 day_night: true
-font: ''
+font: 'Classic'
 font_size: L
 
 # SEO
 
 site_type: Person
 local_business_type: ''
-org_name: 'ORG NAME'
-description: 'DESCRIPTION'
+org_name: 'davideagle.org'
+description: 'Personal Website of David Eagle, PhD'
 twitter: ''
 
 # Contact (edit or remove options as required)
@@ -30,8 +30,8 @@ address:
   country: United States
   country_code: US
 coordinates:
-  latitude: '37.4275'
-  longitude: '-122.1697'
+  latitude: '36.0071724'
+  longitude: '-78.9359916'
 # directions: Enter Trent Hall and take the stairs to Office 313 on Floor 3
 # office_hours:
 #   - 'Monday 10:00 to 13:00'
@@ -156,3 +156,7 @@ cms:
 icon:
   pack:
     ai: true
+map:
+  provider: 'mapbox'
+  api_key: ''
+  zoom: 15
