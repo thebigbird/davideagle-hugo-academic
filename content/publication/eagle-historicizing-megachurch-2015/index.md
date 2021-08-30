@@ -5,7 +5,7 @@ title: Historicizing the megachurch
 subtitle: ''
 summary: ''
 authors:
-- D. E. Eagle
+- David E. Eagle
 tags: []
 categories: []
 date: '2015-03-01'

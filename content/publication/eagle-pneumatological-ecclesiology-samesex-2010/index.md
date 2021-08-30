@@ -6,7 +6,7 @@ title: 'Pneumatological ecclesiology and same-sex marriage: A non-essentialist a
 subtitle: ''
 summary: ''
 authors:
-- David Eagle
+- David E. Eagle
 tags:
 - '"🔍No DOI found"'
 categories: []

@@ -6,7 +6,7 @@ title: The negative relationship between size and the probability of weekly atte
 subtitle: ''
 summary: ''
 authors:
-- David Eagle
+- David E. Eagle
 tags: []
 categories: []
 date: '2016-08-01'

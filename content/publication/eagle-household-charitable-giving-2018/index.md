@@ -6,9 +6,9 @@ title: Household charitable giving at the intersection of gender, marital status
 subtitle: ''
 summary: ''
 authors:
-- David Eagle
+- David E. Eagle
 - Lisa A. Keister
-- Jen’nan Ghazal Read
+- Jen’nan G. Read
 tags: []
 categories: []
 date: '2018-02-01'
