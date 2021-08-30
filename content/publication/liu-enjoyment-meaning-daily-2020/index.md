@@ -9,7 +9,7 @@ authors:
 - Xiaoqian Liu
 - Kathryn Whetten
 - Neil S. Prose
-- David Eagle
+- David E. Eagle
 - Heather E. Parnell
 - Cyrilla Amanya
 - Vanroth Vann
