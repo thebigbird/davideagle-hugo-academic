@@ -20,7 +20,7 @@ image:
 ## Religious Affiliation According to *Reltrad*
 ### How the United States has Changed Religiously 1972-2016
 
-In a previous [post](https://www.davideagle.org/post/reltrad-r/) I generated the code to create the *reltrad* variable in the General Social Survey. In this post, I use that code to plot how religious affiliation has changed in the United States.
+I have generated the code to create the *reltrad* variable in the General Social Survey. In this post, I use this variable to plot how religious affiliation has changed in the United States.
 
 In the R code below, I use the package [*srvyr*](https://cran.r-project.org/web/packages/srvyr/srvyr.pdf) to use *dplyr*-like syntax to create a weighted survey object. 
 
@@ -40,7 +40,7 @@ gssSvy <-  gss %>%  as_survey_design(ids = 1, weights = wtssall)
 #Grouping by year and reltrad. survey_mean calculates proportions of factor variables
 #when an argument is not used.
 relTable = gssSvy %>% group_by(year, reltrad) %>%
-  summarize(proportion = survey_mean(na.rm=T))
+  summarize(proportion = survey_mean(na.rm=T, proportion=T))
 #for the error bars
 relTable = relTable %>% mutate(ymin = proportion - 1.96*proportion_se,
                                ymax = proportion + 1.96*proportion_se)
@@ -61,7 +61,7 @@ relTable = relTable[!is.na(relTable$reltrad),]
 
 Now, using the magic of *ggplot2* I generate a plot of how religious affiliation has changed in the United States from 1972 to 2016. 
 
-```{r}
+```{r, fig.width=10}
 ggplot(data = relTable, aes(x=year, y=proportion, ymin = ymin, ymax = ymax, color = reltrad)) + 
   geom_ribbon(alpha = .2, linetype = 0) + geom_point() + geom_line() + 
   ylab("") + xlab("") +
@@ -76,7 +76,7 @@ ggplot(data = relTable, aes(x=year, y=proportion, ymin = ymin, ymax = ymax, colo
 
 A few notable trends are evident in this plot. First of all, the proportion of Roman Catholics in the United States has stayed relatively steady over this period. While Latin American immigration has brought a lot of new Catholics to the United States, this has been offset by losses among the non-hispanic Catholic population. 
 
-Second, there has been a very steep rise in the number of people claiming no religious affiliation. Non-affliates were a pretty steady 5-8% of the US population from the early 1970s to the early 1990s. The proportion of nones has climbed steeply since then, reaching a high of 25% of the US population, making them the second largest "religious" group in the United States. They could very well surpass Catholics by the time the next wave of GSS data are released.
+Second, there has been a very steep rise in the number of people claiming no religious affiliation. Non-affiliates were a pretty steady 5-8% of the US population from the early 1970s to the early 1990s. The proportion of nones has climbed steeply since then, reaching a high of 25% of the US population, making them the second largest "religious" group in the United States. They could very well surpass Catholics by the time the next wave of GSS data are released.
 
 The higher proportion Black Protestant in 1972 is probably due to some sort of artifact in the GSS data. There seems to be a lower proportion of Conservative Protestants that year as well. This blip is also found on other plots of GSS reltrad data, [here](https://thesocietypages.org/ccf/2014/07/09/religious-change/fig-2-religious-change/), for example.
 
