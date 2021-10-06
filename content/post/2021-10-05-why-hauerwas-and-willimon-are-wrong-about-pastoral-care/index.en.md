@@ -18,7 +18,7 @@ image:
 projects: []
 ---
 
-This summer, in [an article](https://www.christiancentury.org/article/interview/dangers-providing-pastoral-care) in *The Christian Century*, Stanely Hauerwas and Will Willimon write about the dangers of providing pastoral care. This piece is deeply flawed.
+This summer, in [an article](https://www.christiancentury.org/article/interview/dangers-providing-pastoral-care) in *The Christian Century*, Stanley Hauerwas and Will Willimon write about the dangers of providing pastoral care. This piece is deeply flawed.
 
 A pull-quote from Willimon proclaims, 
 
