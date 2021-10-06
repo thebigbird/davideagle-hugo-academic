@@ -29,12 +29,18 @@ Is promoting self-care just an outgrowth of a narcissistic, Western viewpoint? E
 From our research at Clergy Health, we have found pastors are at high risk for developing diabetes. Diabetes is a serious disease that often leads to permanent nerve damage, vision loss and premature death.  Isn't helping pastors to engage in habits that prevent them from developing diabetes simply a good idea? Our food system and way of life has become a diabetes-producing factory. Why shouldn’t we equip pastors with the tools to resist the power of the modern industrial food system? I agree that Christians are called to care about what Christ cares about. The witness of scripture is pretty clear: Christ cares about our bodies. 
 
 Of course, this can go too far. Of course, we can become self-obsessed and self-absorbed. Of course, there is a cult of well being that ignores the basic fact of life that *one day we all will die.*
+
+[Jessica Young Brown](https://faithandleadership.com/jessica-young-brown-ministers-cannot-thrive-if-they-neglect-themselves?utm_source=newsletter&utm_medium=email&utm_content=feature%20story&utm_campaign=ni_newsletter) says it well,
+
+> This work demands that we make time to move toward balance—to evaluate and reevaluate our priorities and boundaries, and to take care of our emotional health. It is not a luxury; it is an act of stewardship that honors what God has given us.
  
-But, for Willimon to say this is ridiculous: 
+Willimon continues,
 
 > Years later, as a bishop, I became troubled that many contemporary pastors aspired only to be obsequious pastoral caregivers and hand-holders—the pastor as the empathetic helping healer who goes for the low-hanging fruit by encouraging people to display and then lick their wounds.
 
-This is wrong, plain and simple. It’s a sound-bite that ignores the reality of pastoral ministry. Again, it’s such an un-pastoral thing to say. According to Hauerwas, "pastoral care has become obsessed with the personal wounds of people in advanced industrial societies who have discovered that their lives lack meaning."
+This is wrong, plain and simple. It’s a sound-bite that ignores the reality of pastoral ministry. Again, it’s such an un-pastoral thing to say. According to Hauerwas,
+
+> pastoral care has become obsessed with the personal wounds of people in advanced industrial societies who have discovered that their lives lack meaning.
 
 **Really?**
 
