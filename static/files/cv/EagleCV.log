@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.14)  24 SEP 2021 08:59
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2021.9.14)  6 OCT 2021 12:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,25 +679,25 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 ) (./publications.tex [1
 
 ]
-Overfull \hbox (4.11812pt too wide) in paragraph at lines 29--30
+Overfull \hbox (4.11812pt too wide) in paragraph at lines 30--31
 \TU/Garamond3LTStd(0)/m/n/12 mental health.” \TU/Garamond3LTStd(0)/m/it/12 Chil
 dren and Youth Services Review\TU/Garamond3LTStd(0)/m/n/12 , 98:143–153 doi:[][
 ]10.1016/j.childyouth 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 35.
 [2]
-Overfull \hbox (2.45279pt too wide) in paragraph at lines 35--36
+Overfull \hbox (2.45279pt too wide) in paragraph at lines 36--37
 \TU/Garamond3LTStd(0)/m/n/12 white clergy.” \TU/Garamond3LTStd(0)/m/it/12 Journ
 al of Racial and Ethnic Health Disparities\TU/Garamond3LTStd(0)/m/n/12 , 5:1014
 –1022. doi:[][]10.1007/ 
  []
 
 
-Overfull \hbox (14.47012pt too wide) in paragraph at lines 39--40
+Overfull \hbox (14.47012pt too wide) in paragraph at lines 40--41
 \TU/Garamond3LTStd(0)/m/it/12 American Journal of Preventive Medicine\TU/Garamo
 nd3LTStd(0)/m/n/12 , 53(3):290–299. doi:[][]10.1016/j.amepre.2017.04.009[][] 
  []
@@ -759,7 +759,7 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 Here is how much of TeX's memory you used:
  13404 strings out of 476919
  249938 string characters out of 5821840
- 658220 words of memory out of 5000000
+ 658213 words of memory out of 5000000
  33159 multiletter control sequences out of 15000+600000
  406838 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
