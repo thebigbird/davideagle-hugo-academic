@@ -20,8 +20,6 @@ projects: []
 
 This summer, in [an article](https://www.christiancentury.org/article/interview/dangers-providing-pastoral-care) in *The Christian Century*, Stanely Hauerwas and Will Willimon write about the dangers of providing pastoral care. This piece is deeply flawed.
 
-Hauerwas begins this interview in typical fashion: set up a strawman called “liberalism” or “individualism” or “therapeutic narcissism” and trash it with an appeal to tradition and virtue. 
- 
 A pull-quote from Willimon proclaims, 
 
 > Better than self-care is to answer the call to care about what Christ cares about.
@@ -36,11 +34,11 @@ But, for Willimon to say this is ridiculous:
 
 > Years later, as a bishop, I became troubled that many contemporary pastors aspired only to be obsequious pastoral caregivers and hand-holders—the pastor as the empathetic helping healer who goes for the low-hanging fruit by encouraging people to display and then lick their wounds.
 
-This is bullshit, plain and simple. It’s a sound-bite that ignores the reality of pastoral ministry. Again, it’s such an un-pastoral thing to say. According to Hauerwas, "pastoral care has become obsessed with the personal wounds of people in advanced industrial societies who have discovered that their lives lack meaning."
+This is wrong, plain and simple. It’s a sound-bite that ignores the reality of pastoral ministry. Again, it’s such an un-pastoral thing to say. According to Hauerwas, "pastoral care has become obsessed with the personal wounds of people in advanced industrial societies who have discovered that their lives lack meaning."
 
 **Really?**
 
-When I was a pastor, I remember sitting with a woman in my office who just found out her husband had been engaged in a years-long affair with another woman. What was my proper reponse? *Stop licking your wounds.* *Stop taking yourself so seriously.* Am I not called to be an empathetic helping healer? What is a pastor if it isn’t someone who will sit with others in their pain and wait for resurrection on the other side of crucifixion? Isn't that what it means to "witness to Christ's cross and resurrection"?
+When I was a pastor, I remember sitting with a woman in my office who just found out her husband had been engaged in a years-long affair with another woman. What was my proper reponse? *Stop licking your wounds.* *Stop taking yourself so seriously.* Had I really succumbed to the modern obsession with our personal wounds? What exactly is wrong with pastors being empathetic, helping healers? What is a pastor if not someone who will sit with others in their pain and wait for resurrection on the other side of crucifixion? Isn't that what it means to "witness to Christ's cross and resurrection"?
  
 After a long and familiar rant about the emptiness of modern North American psychological culture (as if there is such a thing as a unified North American culture, or that psychology is merely one thing), Hauerwas tells the reader:
 
@@ -48,15 +46,15 @@ After a long and familiar rant about the emptiness of modern North American psyc
  
 I am a survivor of sexual abuse. Imagine I disclose this to my pastor and ask for help finding a path back to happiness and she says, "Why would you come to me with that?"
 
-Trauma has devastating consequences for individuals and society. Often, the consequence of trauma is survivors have literally lost control of their lives. The church ought to provide a place for survivors to confront their pasts without becoming consumed by them. Is moving people towards happiness such an unworthy goal?
+Trauma has devastating consequences for individuals and society. Often, the consequence of trauma is survivors have literally lost control of their lives. The church ought to provide a place for survivors to confront their pasts without becoming consumed by them. The resurrection is witness to the fact that the worst of human evil will not ultimately triumph. To so many survivors of trauma happiness is elusive and lies always beyond reach. Is moving people towards happiness such an unworthy goal?
 
 Willimon continues this thread with the following pastoral advice:
 
 > The church is the field hospital where those who, having been wounded by their participation in Christ’s mission, are bandaged up so they can be sent right back into the front lines of the battle.
 
-Is pastoral care really about bandaging our wounds so we can be sent back into battle? I hope not. Many, perhaps most of our wounds come from the simple fact that we live in a world that is still inhabited by Death. I cannot defeat Death. It will consume me. Pastoral theology, indeed all theology, ought to acknowledge that humans are powerless in the face of Death.
+Is pastoral care really about bandaging our wounds so we can be sent back into battle? I hope not. Many—perhaps most—of our wounds come from the simple fact that we live in a world that is still inhabited by Death. I cannot defeat Death; we cannot defeat Death. It will consume me. Pastoral theology (can Christian theology ever *not* be pastoral theology?) ought to acknowledge that humans are powerless in the face of Death.
 
-And the best pastoral theology is always theology that is sung. As the 17th Century Latin Hymn set to the musical genius of Palestrina [proclaims](https://hymnary.org/text/the_strife_is_oer_the_battle_done):
+As the 17th Century Latin hymn set to the musical genius of Palestrina [proclaims](https://hymnary.org/text/the_strife_is_oer_the_battle_done):
 
 > The strife is o'er, the battle done;  
 the victory of life is won;  
@@ -80,6 +78,4 @@ that we may live and sing to thee.
 Alleluia!  
 Alleluia, alleluia, alleluia! 
 
-The pastor is supposed to be a truth teller, but not as Hauerwas claims, to "help the baptized grow up and survive as Christians." To me, "grow up and survive" doesn't sound like the gospel. Rather, as truth tellers, pastors ought to instead boldly proclaim that Death will not have the final word. 
-
-In spite of all evidence to the contrary, the truth of gospel is the battle is done and the Lord God Almighty reigns.
+The pastor is supposed to be a truth teller, but not as Hauerwas claims, to "help the baptized grow up and survive as Christians." To me, "grow up and survive" doesn't sound like the gospel. Rather, as truth tellers, pastors ought to instead boldly proclaim that Death will not have the final word. The pastor-as-truth-teller will proclaim, contrary to so much of our human experience, the truth of the gospel—the strife is over, the battle is done and the Lord God Almighty reigns.
