@@ -44,7 +44,7 @@ After a long and familiar rant about the emptiness of modern North American psyc
 
 > When people expect their pastor to help them display and then heal their wounds, the Christian faith is reduced to a technique for gaining control over your life so you can be happy. I hope their pastor would ask, “Why would you come to me for that?”
  
-I am a survivor of sexual abuse. Imagine I disclose this to my pastor and ask for help finding a path back to happiness and she says, "Why would you come to me with that?"
+I am a survivor of sexual abuse. Imagine I disclose this to my pastor and ask for help finding a path back to happiness and she says, "Why would you come to me for that?"
 
 Trauma has devastating consequences for individuals and society. Often, the consequence of trauma is survivors have literally lost control of their lives. The church ought to provide a place for survivors to confront their pasts without becoming consumed by them. The resurrection is witness to the fact that the worst of human evil will not ultimately triumph. To so many survivors of trauma happiness is elusive and lies always beyond reach. Is moving people towards happiness such an unworthy goal?
 
