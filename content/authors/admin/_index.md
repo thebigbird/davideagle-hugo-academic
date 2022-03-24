@@ -82,7 +82,7 @@ I am an Assistant Research Professor in the [Duke Global Health Institute](http:
 
 I am an expert on the health of religious clergy, the changing role of churches in North American society and the implications of these trends for the professional training of ministers. I have done significant work on burnout, depression and social support. A major strand of my research explores how structural racism impacts the experience of Black clergy.
 
-I am Principle Investigator of [The Seminary to Early Ministry Study](http://semstudy.org), a multi-year, multi-cohort study seeking to understand how seminary impacts the health, occupational wellbeing, theology, and career trajectories of students.
+I am Principal Investigator of [The Seminary to Early Ministry Study](http://semstudy.org), a multi-year, multi-cohort study seeking to understand how seminary impacts the health, occupational wellbeing, theology, and career trajectories of students.
 
 Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data. I am one of the lead methodologists on a large respondent-driven sampling project of sexual and gender minority populations in Kenya, Brazil and Vietnam.
 
