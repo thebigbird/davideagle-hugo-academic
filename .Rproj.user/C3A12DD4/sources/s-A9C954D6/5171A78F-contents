@@ -1,0 +1,80 @@
+---
+output: 
+  stevetemplates::article2:
+    citation_package: natbib
+    dev: cairo_pdf
+    keep_tex: true
+biblio-style: apsr
+title: "Doing Pastoral Ministry in a Pandemic"
+thanks: "This was adapted from our recent article: Johnston, Erin F., David E. Eagle, Jennifer Headley, and Anna Holleman. 2021. “Pastoral Ministry in Unsettled Times: A Qualitative Study of the Experiences of Clergy during the COVID-19 Pandemic.” Review of Religious Research. doi: 10.1007/s13644-021-00465-y."
+author:
+- name: Duke Clergy Health Initiative
+- name: Duke Reflections Team
+- affiliation: David Eagle, PhD
+- affiliation: Erin Johnston, PhD
+- affiliation: Jen Headley, MSW
+- affiliation: Anna Holleman, PhD (Cand.)
+abstract: "The Duke Reflections Team conducts research with pastors in the North Carolina and Western North Carolina Annual Conferences to better understand the life and career experiences of people serving United Methodist Churches. **Want to learn more or have us present our research?** Contact: Erin Johnston erin.johnston035@duke.edu."
+keywords: "pastors, congregations, COVID19"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+mainfont: cochineal
+#sansfont: Linux Biolinum O
+fontsize: 11pt
+# doublespacing: TRUE
+endnote: no
+# pandocparas: TRUE
+sansitup: FALSE
+header-includes:
+  - \usepackage{longtable}
+  - \LTcapwidth=.95\textwidth
+  - \linespread{1.05}
+  - \usepackage{hyperref}
+---
+```{r}
+```
+# Introduction
+
+For centuries, religious congregations have physically gathered. The predictable rhythm of these services forms an essential part of their life. Shepherding these gatherings is a essential part of a pastor’s life. 
+
+In March 2020, the COVID-19 pandemic put a sudden halt to the traditional manner of worship services. Local and national restrictions eliminated the option of in-person gatherings. Clergy were forced to quickly respond to changing regulations while still delivering the worship and pastoral care essential to their congregants. 
+
+As restrictions have gradually been lifted or modified, in-person worship services have largely returned – at least, in some capacity. But what can be learned from the experience of leading a congregation through a pandemic? How were religious leaders able to navigate this difficult time, and what lessons will be carried forward into a post-pandemic world? The Reflections in Ministry Team of the Duke Clergy Health Initiative recently published a study that aims to answer these questions. 
+
+# The Study
+
+We conducted interviews with 26 United Methodist Church pastors in the North Carolina and Western North Carolina Annual Conferences. These interviews were performed between June and August, 2020. Among the 26 participants, there were early, mid, and late-career pastors included. The average age of the participants in the study was 44 years, and the gender of the group was evenly split.
+
+# Unprecedented Disruption
+
+It became clear after beginning these interviews that the COVID-19 pandemic had disrupted life for pastors and their congregations like nothing else in recent memory. Several quotes provided by participants highlight the disruption they experienced:
+
+-	“We’re unlearning ministry and starting from scratch”
+-	“I feel like we’re trying to build a plane while we fly it”
+-	“Everything I learned about how to be a pastor, I’ve virtually had to re-figure out”
+
+Given the routine, predictable nature of religious services and scheduling, the realities of the pandemic plunged clergy into uncharted waters. 
+
+# Finding Worship Solutions
+
+The obvious solution to conducting worship services in a socially distanced manner was technology. But clergy and their congregations were not prepared to use this technology so suddenly. Many struggles were experienced with options like Facebook Live, Zoom, and others. Younger pastors and congregations who were more familiar with these apps had an easier time making the switch. Churches in rural locations tended to have more difficulties, whether due to a lack of experience with the tech or because of poor internet access.  In addition to technological hurdles, pastors often struggled to deliver their sermons without the immediate feedback of an in-person congregation.
+
+# Providing Pastoral Care
+
+Worship services delivered online were not ideal, but they were feasible. Providing pastoral care, however, proved a greater challenge in the pandemic environment. More than half of the pastors we spoke to felt that the inability to visit members of the congregation in person was a foundational change in their ministry. Many pastors related the pain they felt not being able to make hospital visits to comfort ill individuals and their families.
+
+# An Unexpected Duty
+
+The roles of delivering a worship service and offering pastoral care were dramatically changed during the pandemic, but those were not new roles. However, half of the pastors we interviewed also reported taking on a new role that they were not trained to handle – interpreting public health information. Faced with so much conflicting information, many congregants turned to their pastor for guidance. 
+
+Pastors did their best to read as much as they could about the pandemic, trying to interpret what activities were safe and what precautions should be taken. As one pastor stated, “They’re looking to me for leadership and wisdom, and I’m having to do a whole lot of studying to try to figure it out for them.”
+
+# Moving Forward
+
+This study is important not only as a retrospective on a challenging period but also because of what it means for the future of how pastors serve their congregations. The interviews indicate that many congregations will continue to stream their services for members who can’t attend or would rather watch from home. 18 of the 26 participants felt that virtual services helped them connect to a wider audience and seem them continuing for the long-term.
+
+On the other hand, it seems unlikely that pastors will lean on technology to provide pastoral care as the pandemic wanes. The in-person element of pastoral care is seen as essential and modern technology is not able to appropriately replace the face-to-face experience. None of the 26 pastors in this study was satisfied with how they delivered pastoral care during the COVID-19 pandemic. 
+
+# Being Thankful
+
+Finally, while the pandemic has been a global tragedy by any measure, there were silver livings uncovered by many pastors. The necessity of adapting to new technologies and ways of engaging with the congregation has opened doors that may have otherwise remained closed for years to come. As one pastor stated, “There’s nothing like necessity, right?...We have actually stepped into a realm that we needed to step into a long time ago.”
