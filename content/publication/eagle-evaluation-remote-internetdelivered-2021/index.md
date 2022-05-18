@@ -63,6 +63,6 @@ abstract: The Trier Social Stress Test (TSST) is a widely used, reliable, and ec
   and HPA-axis activity, the iTSST represents a promising research tool when physically
   interacting with participants is not feasible.
 publication: '*International Journal of Psychophysiology*'
-url_pdf: https://www.sciencedirect.com/science/article/pii/S0167876021001318
+url_pdf:
 doi: 10.1016/j.ijpsycho.2021.03.009
 ---

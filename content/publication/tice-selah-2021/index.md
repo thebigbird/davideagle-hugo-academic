@@ -40,6 +40,6 @@ publication_types:
 abstract: 'Introduction:Like many helping professionals in emotional labor occupations, clergy experience high rates of mental and physical comorbidities. Regular stress management practices may reduce stress-related symptoms and morbidity, but more research is needed into what practices can be reliably included in busy lifestyles and practiced at a high enough level to meaningfully reduce stress symptoms.
 Methods and analysis: The overall design is a preference-based randomized waitlist control trial. United Methodist clergy in North Carolina will be eligible to participate. The intervention and waitlist control groups will be recruited by email. The interventions offered are specifically targeted to clergy preference and include mindfulness-based stress reduction, Daily Examen, and stress inoculation training. Surveys will be conducted at 0, 12, and 24 weeks with heart rate data collected at 0 and 12 weeks. The primary outcomes for this study are self-reported symptoms of stress and heart rate at week 12 for each intervention compared to waitlist control; the secondary outcome is symptoms of anxiety comparing each intervention vs waitlist control.'
 publication: '*Trials*'
-url_pdf: https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-021-05845-x
+url_pdf:
 doi: 10.1186/s13063-021-05845-x
 ---
