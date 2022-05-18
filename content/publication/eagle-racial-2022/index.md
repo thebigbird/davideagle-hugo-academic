@@ -33,6 +33,6 @@ publication_types:
 - '2'
 abstract: 'Victor Ray argues organizations are racial structures that legitimate the unequal distribution of resources and stratify the agency of racial groups through organizational processes that treat White identity as a credential and decouple formal rules meant to reduce disparities from practice. This study demonstrates the utility of this theory in an empirical case study of disparities in earnings, job quality, and advancement among clergy in the United Methodist Church. Despite the preferences articulated by the Black clergy, the formal organizational policies that ban race as a consideration in appointment making were decoupled from managerial practices; thus clergy and congregations were matched on race. Because of local control over salaries and major resource disparities between congregations, race matching led to Black-White disparities in pay, advancement, working conditions, and professional support. The most promising remedy is a common salary scale with a more comprehensive redistribution process to address resources inequalities across congregations.'
 publication: '*American Journal of Sociology*'
-url_pdf: https://www.davideagle.org/files/EagleMullerFinalPrePrint.pdf
+url_pdf: 
 doi: 10.1086/719391
 ---

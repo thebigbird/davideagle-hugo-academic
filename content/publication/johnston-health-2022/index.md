@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: 'Seminary students and physical health: beliefs, behaviors, and barriers.'
+title: 'Seminary students and physical health: beliefs, behaviors, and barriers'
 subtitle: ''
 summary: ''
 authors:
