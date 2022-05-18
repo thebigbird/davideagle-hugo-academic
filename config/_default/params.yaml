@@ -16,44 +16,6 @@ site_type: Person
 local_business_type: ''
 org_name: 'davideagle.org'
 description: 'Personal Website of David Eagle, PhD'
-twitter: ''
-
-# Contact (edit or remove options as required)
-
-email: david.eagle@duke.edu
-phone: 919 699 6321
-address:
-  street: 313-310 Trent Drive
-  city: Durham
-  region: NC
-  postcode: '27705'
-  country: United States
-  country_code: US
-coordinates:
-  latitude: '36.0071724'
-  longitude: '-78.9359916'
-# directions: Enter Trent Hall and take the stairs to Office 313 on Floor 3
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-appointment_url: 'https://outlook.office365.com/owa/calendar/david.eagle@duke.edu/pbp/'
-contact_links:
-  - icon: twitter
-    icon_pack: fab
-    name: DM Me
-    link: 'https://twitter.com/davideaglephd'
-  # - icon: skype
-  #   icon_pack: fab
-  #   name: Skype Me
-  #   link: 'skype:echo123?call'
-  # - icon: keybase
-  #   icon_pack: fab
-  #   name: Chat on Keybase
-  #   link: 'https://keybase.io/'
-  # - icon: comments
-  #   icon_pack: fas
-  #   name: Discuss on Forum
-  #   link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -140,10 +102,6 @@ search:
     api_key: ''
     index_name: ''
     show_logo: false
-map:
-  provider: ''
-  api_key: ''
-  zoom: 15
 marketing:
   google_analytics: 'G-79V1H0ZZG3'
   google_tag_manager: ''
@@ -157,6 +115,6 @@ icon:
   pack:
     ai: true
 map:
-  provider: 'mapbox'
+  provider: 'mapnik'
   api_key: ''
   zoom: 15

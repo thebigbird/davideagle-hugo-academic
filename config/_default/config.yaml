@@ -5,7 +5,7 @@
 
 title: Academic # Website name
 baseurl: 'https://xenodochial-yonath-5a40d0.netlify.app/' # Website URL
-copyright: '©2021 David Eagle' # Footer text, e.g. '© {year} Me'
+copyright: '©2022 David Eagle' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
@@ -43,7 +43,7 @@ permalinks:
   publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, JSON, headers, redirects]
+  home: [HTML, RSS  , JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
@@ -66,3 +66,13 @@ related:
       weight: 100
     - name: categories
       weight: 70
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_
+features:
+  map:
+    provider: 'mapbox'
+    api_key: ''
+    zoom: 15
