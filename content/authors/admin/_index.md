@@ -12,6 +12,10 @@ role: Assistant Research Professor
 organizations:
 - name: Duke Global Health Institute
   url: https://globalhealth.duke.edu/
+- name: Department of Sociology
+  url: https://sociology.duke.edu/
+- name: Duke University
+  url: https://www.duke.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include the sociology of religion, theological education, and racial inequality.
@@ -75,7 +79,7 @@ social:
 highlight_name: false
 ---
 
-I am an Assistant Research Professor in the [Duke Global Health Institute](http://globalhealth.duke.edu) and a faculty affiliate at the [Center for Health Policy and Inequalities Research](http://www.chpir.org). In partnership with [Duke Divinity School](http://divinity.duke.edu), [Rae Jean Proeschold-Bell](https://globalhealth.duke.edu/people/proeschold-bell-rae-jean) and I help lead the [Duke Clergy Health Initiative](https://divinity.duke.edu/initiatives/clergy-health-initiative), a world leader in researching and designing interventions for pastors and religious leaders.
+I am an Assistant Research Professor of [Global Health](http://globalhealth.duke.edu) and [Sociology](http://sociology.duke.edu) and a faculty affiliate at the [Center for Health Policy and Inequalities Research](http://www.chpir.org). In partnership with [Duke Divinity School](http://divinity.duke.edu), [Rae Jean Proeschold-Bell](https://globalhealth.duke.edu/people/proeschold-bell-rae-jean) and I help lead the [Duke Clergy Health Initiative](https://divinity.duke.edu/initiatives/clergy-health-initiative), a world leader in researching and designing interventions for pastors and religious leaders.
 
 I am an expert on the health of religious clergy, the changing role of churches in North American society and the implications of these trends for the professional training of ministers. I have done significant work on burnout, depression and social support. A major strand of my research explores how structural racism impacts the experience of Black clergy.
 
