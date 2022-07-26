@@ -42,7 +42,7 @@ content:
   # office_hours:
   #   - 'Monday 10:00 to 13:00'
   #   - 'Wednesday 09:00 to 10:00'
-  appointment_url: 'https://outlook.office365.com/owa/calendar/david.eagle@duke.edu/pbp/'
+  appointment_url: 'https://outlook.office365.com/owa/calendar/DavidEagle@ProdDuke.onmicrosoft.com/bookings/'
   contact_links:
     # - icon: twitter
     #   icon_pack: fab
