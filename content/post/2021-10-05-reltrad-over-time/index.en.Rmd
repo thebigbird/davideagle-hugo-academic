@@ -32,8 +32,12 @@ library(srvyr)
 library(tidyverse)
 library(survey)
 library(ggthemes)
+library(gssr)
 
-load("/Users/dee4/Box/Projects/R_Stata_Reltrad/Data/gss.RData") 
+#Using Kieran Healy's excellent package
+data(gss_all)
+gss=gss_all;rm(gss_all)
+source("https://github.com/thebigbird/R_Stata_Reltrad/blob/master/ReltradGSS.R")
 #See my github for the code to make these data
 
 gss = gss %>% 
@@ -45,9 +49,8 @@ levels(gss$age_cat) = c("Great","Silent","Boomer","GenX","Millenial","GenZ")
 
 #Creates an explicit missing category
 #This sorts
-source("~/Box/Projects/Rfunctions/janhove.github.io/RCode/sortLvls.R")
-gss$reltrad = sortLvlsByN.fnc(gss$reltrad, ascending = F)
-gss$reltrad = sortLvls.fnc(gss$reltrad, c(4,1,2,3,5,6,7))
+
+
 
 #Calculate weighted proportions
 #Create survey object using svyr
@@ -96,9 +99,6 @@ plotout = ggplot(data = out,
 plotout
 
 ```
-
-
-
 A few notable trends are evident in this plot. First of all, the proportion of Roman Catholics in the United States has stayed relatively steady over this period. While Latin American immigration has brought a lot of new Catholics to the United States, this has been offset by losses among the non-hispanic Catholic population. 
 
 Second, there has been a very steep rise in the number of people claiming no religious affiliation. Non-affiliates were a pretty steady 5-8% of the US population from the early 1970s to the early 1990s. The proportion of nones has climbed steeply since then, reaching a high of 25% of the US population, making them the second largest "religious" group in the United States. They could very well surpass Catholics by the time the next wave of GSS data are released.
@@ -107,4 +107,4 @@ The higher proportion Black Protestant in 1972 is probably due to some sort of a
 
 Third, Mainline Protestants are in free fall. They are now about 12% of the US population, down about 20 points from their peak in the early 1970s. Conservative Protestants made some gains in the mid-1980s to mid-1990s (probably due to people leaving mainline denominations over cultural issues), but are also declining. They are down about 10 points from their high in the early 1990s.
  
-Also important is that the "Other" religion category is steadily climbing, and has reached a high of about 5% of the US population. The proportion of the population identifying as Black Protestants remained fairly steady over this period, but recently has begun to decline.
+Also important is that the "Other" religion category is steadily climbing, and has reached a high of about 5% of the US population. The proportion of the population identifying as Black Protestants remained fairly steady over this period, but recently has begun to decline. This is likely due to more Black Protestants identifying with Conservative Protestant denominations rather that historically Black denominations.
