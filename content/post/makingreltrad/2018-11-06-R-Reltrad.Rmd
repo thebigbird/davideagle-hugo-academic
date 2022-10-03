@@ -2,7 +2,7 @@
 title: "Creating the Reltrad Variable in the General Social Survey Using R"
 author: "David Eagle, PhD"
 slug: "Creating Reltrad"
-date: '2018-11-06'
+date: '2018-11-06; updated 2022-10-03'
 output:
   html_document: default
   pdf_document: default
@@ -12,62 +12,86 @@ header:
 categories:
 - Measuring religion
 - R
-bibliography: /Users/dee4/Box/Projects/BibTexFile/MyLibrary.bib
+bibliography: /Users/dee4/Documents/GitHub/BiblatexFile/deeLibrary.bib
 ---
-Haven't you always wanted an easy to access R script to create the famous _reltrad_ religious categorizaton in the General Social Survey? Well, today is your lucky day.
 
-The measure of religious affiliation described in [@steenslandMeasureAmericanReligion2000], otherwise known as _reltrad_, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College. The _reltrad_ crowd continues to think their measure is pretty good [@woodberryMeasureAmericanReligious2012]. A _reltrad_ for African Americans has been developed - this is required reading for those who use _reltrad_ in their research [@sheltonBlackReltradMeasuring2017].
+Haven't you always wanted an easy to access R script to create the famous *reltrad* religious categorizaton in the General Social Survey? Well, today is your lucky day.
 
-Up until now, the code to create the _reltrad_ variable from the [General Social Survey](http://gss.norc.org/) has only been available in PDF. Stata code for _reltrad_ is available from [Lifeway Research](http://lifewayresearch.com/wp-content/uploads/2016/02/Stata_coding_reltrad_2_19_2016.pdf). Lifeway also published [R code](http://lifewayresearch.com/wp-content/uploads/2017/02/reltrad-R-Coding-2.19.2016.pdf). Ryan Burge has Stata code up on Github: [https://github.com/ryanburge/reltrad](https://github.com/ryanburge/reltrad).
+The measure of religious affiliation described in [@steenslandMeasureAmericanReligion2000], otherwise known as *reltrad*, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College. The *reltrad* crowd continues to think their measure is pretty good [@woodberryMeasureAmericanReligious2012]. A *reltrad* for African Americans has been developed - this is required reading for those who use *reltrad* in their research [@sheltonBlackReltradMeasuring2017].
+
+Up until now, the code to create the *reltrad* variable from the [General Social Survey](http://gss.norc.org/) has only been available in PDF. Stata code for *reltrad* is available from [Lifeway Research](http://lifewayresearch.com/wp-content/uploads/2016/02/Stata_coding_reltrad_2_19_2016.pdf). Lifeway also published [R code](http://lifewayresearch.com/wp-content/uploads/2017/02/reltrad-R-Coding-2.19.2016.pdf). Ryan Burge has Stata code up on Github: <https://github.com/ryanburge/reltrad>.
 
 Here, I am providing a link to my repository with an R translation of the code that is more reproducible. I apply this to the 1972-2016 GSS combined data file. Note that I do incorporate the corrections suggested by [@stetzerReltradCodingProblems2016].
 
-The code takes a GSS datafile and then recodes religious affiliation into the _reltrad_ scheme created by Steensland et al. It breaks the US population into Conservative Protestant, Mainline Protestant, Black Protestant, Jewish, Other, and Non-Affiliated.
+Using [Kieran Healy's gssr package](https://kjhealy.github.io/gssr/), the sample code loads the gss datafile, dumps the oversamples, and then calls the function I've written (now mostly in dplyr) to create a reltrad variable. The lives [here](https://github.com/thebigbird/R_Stata_Reltrad/blob/master/ReltradGSS.R).
 
-I've written this code in vanilla R, but resorted to the _car_ package for easier recoding. The code is pretty well commented, but tweet at me or email me if you have questions. It's also bad code that I wrote a long while ago. I'd do this differently with dplyr.
+After the code is run, the results can be quickly tabulated. The following plot looks at how the religious composition of the US has changed over time.
 
-First, here's how to get the NORC data down:
-```{r include=T, eval=FALSE, message=F, error=F}
-#Not run
-#Get the GSS data, import into a temp file and unzip
-#read in the GSS data
-#Convert to R data format
-#Save
-library(dplyr)
-temp <- tempfile()
-download.file("http://gss.norc.org/documents/stata/GSS_stata.zip",temp)
-unzip(temp, files="GSS7216_R4.DTA",exdir = "OrigData")
-unlink(temp);rm(temp)
-gss = haven::read_dta("OrigData/GSS7216_R4.DTA")
-#Load the data
-#
-#Get the variables we want, this is a huge dataset.
-#Save where you like:
-file = "OrigData/gss7216.data"
-gss =  gss %>% select(relig, other, race, denom, year, attend, id, wtssall, sample)
-save(gss, file=file)
-names(gss)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F)
 ```
 
-The full code to create _reltrad_ in R lives [here](https://github.com/thebigbird/R_Stata_Reltrad/blob/master/ReltradGSS.R). 
+```{r,fig.width = 10, fig.height=6.5}
+#Create a Figure for GSS attendanc= over time
+#Plot the proportions over time
+source("https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R")
+#See my github for the code to make these data
 
-```{r include=F, message=F, error=F}
-#This allows sourcing of https links
-#Download the data from Github
-gss=read.csv("https://github.com/thebigbird/R_Stata_Reltrad/blob/master/gss7216_reltrad.csv?raw=true")
-```
+#Cut by generation
+gss = gss %>% 
+  mutate(year = as.numeric(as.character(year))) %>%
+  mutate(birthyr = year - age) %>%
+  mutate(age_cat = cut(birthyr, c(0,1928,1945,1965,1981,1997,2020)))
 
-After the code is run, the results can be quickly tabulated. The following table looks at how the religious composition of the US has changed over time. This uses the very useful wrapper _crosstab( )_ for the _CrossTable( )_ function in the package  [descr](https://cran.r-project.org/web/packages/descr/descr.pdf). It allows you to make weighted crosstabs easily and prettily. In subsequent posts, I will have some fun with ggplot to visual these data.
+levels(gss$age_cat) = c("Great","Silent","Boomer","GenX","Millenial","GenZ")
 
-```{r}
-## @knitr ReltradTable
-library(descr)
-print(
-  crosstab(gss$year,gss$reltrad,
-           weight = gss$wtssall, prop.c = T, prop.r = T, prop.t = F, 
-           total.c = F, plot = F))
+library(srvyr)
+#Calculate weighted proportions
+#Create survey object using svyr
+gss_svy <- gss %>% as_survey_design(1, weight = wtssall,
+                                    variables = c(year, reltrad, age_cat))
+
+#Now calculate proportions
+out = gss_svy %>% 
+  group_by(year, reltrad) %>%
+  summarize(prop = survey_mean(na.rm=T, proportion = T)) %>%
+  drop_na()
+
+#A nice set o' colors
+scFill = scale_color_manual(values = 
+                              c("#1B9E77", 
+                                "#DDC849",
+                                "#7570b3", 
+                                "#a6761d",
+                                "#e7298a",
+                                "#1f78b4",
+                                "#a9a9a9",
+                                "#cc99ff"))
+
+plotout = ggplot(data = out, 
+                 aes(x=year, 
+                     y=prop,
+                     color = reltrad,
+                     group = reltrad)) +
+  geom_ribbon(aes(ymin = prop - 1.96*prop_se,
+                  ymax = prop + 1.96*prop_se),
+                  color = "white",
+                  alpha = .2, fill = "grey") +
+  geom_point() +
+  geom_line() +
+  ylab("Proportion of US Population Identifying As...") +
+  xlab("") +
+  labs(title = "Religious Affiliation in the United States",
+       subtitle = "General Social Survey",
+       caption = "David Eagle @davideaglephd / Data: https://gss.norc.org/",
+       color = "Religious Tradition")+
+  theme_minimal() + scFill +
+  theme(axis.text.x = element_text(angle = 70, hjust = 1)) +
+  ggtitle("Religious Affiliation in the United States 1972-2018")
+#ggsave(plotout,"Output/reltradGSS.png", width = 12, height=5, dpi="retina")
+
+plotout
 ```
 
 ### References
-
 
