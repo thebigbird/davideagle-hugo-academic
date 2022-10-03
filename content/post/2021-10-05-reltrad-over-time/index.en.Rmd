@@ -9,7 +9,6 @@ output:
 categories:
 - Measuring religion
 - R
-bibliography: /Users/dee4/Box/Projects/BibTexFile/MyLibrary.bib
 image:
   caption: 
   focal_point: ""
@@ -28,18 +27,10 @@ knitr::opts_chunk$set(echo = TRUE, message = F)
 ```{r,fig.width = 10, fig.height=6.5}
 #Create a Figure for GSS attendanc= over time
 #Plot the proportions over time
-library(srvyr)
-library(tidyverse)
-library(survey)
-library(ggthemes)
-library(gssr)
-
-#Using Kieran Healy's excellent package
-data(gss_all)
-gss=gss_all;rm(gss_all)
-source("https://github.com/thebigbird/R_Stata_Reltrad/blob/master/ReltradGSS.R")
+source("https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R")
 #See my github for the code to make these data
 
+#Cut by generation
 gss = gss %>% 
   mutate(year = as.numeric(as.character(year))) %>%
   mutate(birthyr = year - age) %>%
@@ -47,11 +38,7 @@ gss = gss %>%
 
 levels(gss$age_cat) = c("Great","Silent","Boomer","GenX","Millenial","GenZ")
 
-#Creates an explicit missing category
-#This sorts
-
-
-
+library(srvyr)
 #Calculate weighted proportions
 #Create survey object using svyr
 gss_svy <- gss %>% as_survey_design(1, weight = wtssall,
@@ -99,12 +86,13 @@ plotout = ggplot(data = out,
 plotout
 
 ```
-A few notable trends are evident in this plot. First of all, the proportion of Roman Catholics in the United States has stayed relatively steady over this period. While Latin American immigration has brought a lot of new Catholics to the United States, this has been offset by losses among the non-hispanic Catholic population. 
+
+A few notable trends are evident in this plot. First of all, the proportion of Roman Catholics in the United States has stayed relatively steady over this period. While Latin American immigration has brought a lot of new Catholics to the United States, this has been offset by losses among the non-hispanic Catholic population.
 
 Second, there has been a very steep rise in the number of people claiming no religious affiliation. Non-affiliates were a pretty steady 5-8% of the US population from the early 1970s to the early 1990s. The proportion of nones has climbed steeply since then, reaching a high of 25% of the US population, making them the second largest "religious" group in the United States. They could very well surpass Catholics by the time the next wave of GSS data are released.
 
 The higher proportion Black Protestant in 1972 is probably due to some sort of artifact in the GSS data. There seems to be a lower proportion of Conservative Protestants that year as well. This blip is also found on other plots of GSS reltrad data, [here](https://thesocietypages.org/ccf/2014/07/09/religious-change/fig-2-religious-change/), for example.
 
 Third, Mainline Protestants are in free fall. They are now about 12% of the US population, down about 20 points from their peak in the early 1970s. Conservative Protestants made some gains in the mid-1980s to mid-1990s (probably due to people leaving mainline denominations over cultural issues), but are also declining. They are down about 10 points from their high in the early 1990s.
- 
+
 Also important is that the "Other" religion category is steadily climbing, and has reached a high of about 5% of the US population. The proportion of the population identifying as Black Protestants remained fairly steady over this period, but recently has begun to decline. This is likely due to more Black Protestants identifying with Conservative Protestant denominations rather that historically Black denominations.
