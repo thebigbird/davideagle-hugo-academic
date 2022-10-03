@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  19 MAY 2022 11:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  15 SEP 2022 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -701,17 +701,17 @@ Overfull \hbox (45.3209pt too wide) in alignment at lines 57--65
  []
 
 [6]) (./teaching.tex
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 4--10
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 4--11
 [][] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 13--20
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 14--21
 [][] 
  []
 
 ) (./talks.tex
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 23--1
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 24--1
 [][]
  []
 
@@ -721,12 +721,12 @@ Overfull \hbox (2.68556pt too wide) in alignment at lines 3--5
  []
 
 
-Overfull \hbox (2.68556pt too wide) in alignment at lines 8--81
+Overfull \hbox (2.68556pt too wide) in alignment at lines 8--85
  [] [] 
  []
 
 [7] [8] [9]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 84--94
+Overfull \hbox (2.68556pt too wide) in alignment at lines 88--98
  [] [] 
  []
 
@@ -747,7 +747,7 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 Here is how much of TeX's memory you used:
  14043 strings out of 476179
  272265 string characters out of 5809545
- 681969 words of memory out of 5000000
+ 684969 words of memory out of 5000000
  34563 multiletter control sequences out of 15000+600000
  472611 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

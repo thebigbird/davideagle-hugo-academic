@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Academic</title>
+    <link>https://xenodochial-yonath-5a40d0.netlify.app/publication-type/6/</link>
+      <atom:link href="https://xenodochial-yonath-5a40d0.netlify.app/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 David Eagle</copyright><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png</url>
+      <title>6</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>Intersectionality and identity: an exploration of Arab-American women</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication/read-intersectionality-identity-exploration-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/read-intersectionality-identity-exploration-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mega, medium, and mini: size and the socioeconomic status composition of American Protestant churches</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication/eagle-mega-medium-mini-2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/eagle-mega-medium-mini-2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
