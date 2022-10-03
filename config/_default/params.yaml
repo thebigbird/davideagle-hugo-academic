@@ -39,7 +39,7 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
-math: false
+math: true
 diagram: false
 privacy_pack: false
 edit_page:
@@ -62,11 +62,11 @@ section_pager: false
 docs_section_pager: true
 sharing: true
 copyright_license:
-  enable: false
-  allow_derivatives: false
+  enable: true
+  allow_derivatives: true
   share_alike: true
   allow_commercial: false
-  notice: 'This work is licensed under {license}'
+  notice: 'This work is licensed under {license}.'
 abstract_length: 135
 plugins_js: []
 avatar:
