@@ -253,6 +253,28 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+
+div.csl-bib-body { }
+div.csl-entry {
+clear: both;
+}
+.hanging div.csl-entry {
+margin-left:2em;
+text-indent:-2em;
+}
+div.csl-left-margin {
+min-width:2em;
+float:left;
+}
+div.csl-right-inline {
+margin-left:2em;
+padding-left:1em;
+}
+div.csl-indent {
+margin-left: 2em;
+}
+</style>
 
 
 
@@ -369,8 +391,8 @@ over time using data from the 1972–2018 <a href="https://gss.norc.org/get-the-
 <p>I have code on <a href="https://github.com/thebigbird/reltrad">Github</a> that recodes the
 GSS into the standard RELTRAD categories that are frequently used by
 sociologist of religion. This code shows how to use ggplot to create a
-plot of the trends over time.</p>
-<p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE, message = F)</code></p>
+plot of the trends over time <span class="citation">(Steensland et al.
+2000)</span>.</p>
 <pre class="{r}"><code>#Create a Figure for GSS attendance over time
 #Plot the proportions over time
 source(&quot;https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R&quot;)
@@ -423,14 +445,14 @@ ggplot(data = out,
   labs(title = &quot;Religious Affiliation in the United States&quot;,
        subtitle = &quot;General Social Survey&quot;,
        color = &quot;Religious Tradition&quot;,
-      caption = &quot;David Eagle, Data: https://gss.norc.org/&quot;) +
+      caption = &quot;http://www.davideagle.org; Data: https://gss.norc.org&quot;) +
   theme_minimal() + scFill +
   theme(axis.text.x = element_text(angle = 70, hjust = 1)) +
   ggtitle(&quot;Religious Affiliation in the United States 1972-2018&quot;)
 
-ggsave(&quot;spf13.jpg&quot;)
+ggsave(&quot;reltradusgss.jpg&quot;)
 </code></pre>
-<p>{{&lt; figure src=“spf13.jpg” title=“Steve Francia” &gt;}}</p>
+<p>{{&lt; figure src=“reltradusgss.jpg” &gt;}}</p>
 <p>A few notable trends are evident in this plot. First of all, the
 proportion of Roman Catholics in the United States has stayed relatively
 steady over this period. While Latin American immigration has brought a
@@ -461,6 +483,15 @@ fairly steady over this period, but recently has begun to decline. This
 is likely due to more Black Protestants identifying with Conservative
 Protestant denominations rather that historically Black
 denominations.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-steenslandMeasureAmericanReligion2000" class="csl-entry">
+Steensland, B., L. D. Robinson, W. B. Wilcox, J. Z. Park, M. D.
+Regnerus, and R. D. Woodberry. 2000. <span>“The <span>Measure</span> of
+<span>American Religion</span>: <span>Toward Improving</span> the
+<span>State</span> of the <span>Art</span>.”</span> <em>Social
+Forces</em> 79 (1): 291–318. <a href="https://doi.org/db9hrh">https://doi.org/db9hrh</a>.
+</div>
+</div>
 
 
 

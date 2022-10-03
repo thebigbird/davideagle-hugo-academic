@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: October 3, 2022 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.16f785cdb553c8c4431db6775122af35.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.e5d7adca760216d3b7e28ea434e81f6f.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="David E. Eagle, Ph.D." />
+
+
+
+
+
+  
+
+<meta name="description" content="Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in Steensland et al." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/" />
+<link rel="canonical" href="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Academic" />
+<meta property="og:url" content="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/" />
+<meta property="og:title" content="Creating the Reltrad Variable in the General Social Survey Using R | Academic" />
+<meta property="og:description" content="Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in Steensland et al." /><meta property="og:image" content="https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2018-11-06T07:32:00-08:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2022-10-03T07:32:00-08:00">
+  
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/"
+  },
+  "headline": "Creating the Reltrad Variable in the General Social Survey Using R",
+  
+  "datePublished": "2018-11-06T07:32:00-08:00",
+  "dateModified": "2022-10-03T07:32:00-08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "David E. Eagle, Ph.D."
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in Steensland et al."
+}
+</script>
+
+  
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Creating the Reltrad Variable in the General Social Survey Using R | Academic</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3d0a96fb2832f971591b03888498c46f" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Academic</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link  active" href="/post/"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/files/cv/EagleCV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Creating the Reltrad Variable in the General Social Survey Using R</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+          Last updated on
+      
+    
+    Oct 3, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/r/">R</a>, <a href="/category/measuring-religion/">Measuring religion</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      
+
+
+<p>Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in <span class="citation">Steensland et al. (<a href="#ref-steenslandMeasureAmericanReligion2000" role="doc-biblioref">2000</a>)</span>, otherwise known as <em>reltrad</em>, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College.</p>
+<p>The <em>reltrad</em> crowd continues to think their measure is pretty good <span class="citation">(<a href="#ref-woodberryMeasureAmericanReligious2012" role="doc-biblioref">Woodberry et al. 2012</a>)</span>. A <em>reltrad</em> for African Americans has been developed - this is required reading for those who use <em>reltrad</em> in their research <span class="citation">(<a href="#ref-sheltonBlackReltradMeasuring2017" role="doc-biblioref">Shelton and Cobb 2017</a>)</span>.</p>
+<div id="code-conundrums" class="section level2">
+<h2>Code Conundrums</h2>
+<p>Up until now, the code to create the reltrad variable from the General Social Survey is scattered about. A PDF of Stata code for reltrad is available from Lifeway Research. They have R code, too. <a href="https://github.com/ryanburge/reltrad">Ryan Burge has code up on Github</a></p>
+<div id="a-better-reltrad-repository" class="section level3">
+<h3>A Better <em>Reltrad</em> Repository</h3>
+<p>I am providing <a href="https://thebigbird/R_Stata_Reltrad"><strong>my repository</strong></a>, which I think is the best out there This has a Stata .do file and an R function. Note that I do incorporate the corrections suggested by <span class="citation">Stetzer and Burge (<a href="#ref-stetzerReltradCodingProblems2016" role="doc-biblioref">2016</a>)</span> . Using Kieran Healy’s gssr package, the sample code loads the gss datafile, dumps the oversamples, and then calls the function I’ve written (now mostly in dplyr) to create a <em>reltrad</em> variable.</p>
+<p>Again, <a href="https://github.com/thebigbird/R_Stata_Reltrad">github.com/thebigbird/R_Stata_Reltrad</a>.</p>
+</div>
+<div id="an-example" class="section level3">
+<h3>An Example</h3>
+<p>After the code is run, the results can be quickly plotted The following plot looks at how the religious composition of the US has changed over time.</p>
+<pre class="r"><code>#Create a Figure for GSS attendanc= over time
+#Plot the proportions over time
+source(&quot;https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R&quot;)
+#See my github for the code to make these data
+
+#Cut by generation
+gss = gss %&gt;% 
+  mutate(year = as.numeric(as.character(year))) %&gt;%
+  mutate(birthyr = year - age) %&gt;%
+  mutate(age_cat = cut(birthyr, c(0,1928,1945,1965,1981,1997,2020)))
+
+levels(gss$age_cat) = c(&quot;Great&quot;,&quot;Silent&quot;,&quot;Boomer&quot;,&quot;GenX&quot;,&quot;Millenial&quot;,&quot;GenZ&quot;)
+
+library(srvyr)
+#Calculate weighted proportions
+#Create survey object using svyr
+gss_svy &lt;- gss %&gt;% as_survey_design(1, weight = wtssall,
+                                    variables = c(year, reltrad, age_cat))
+
+#Now calculate proportions
+out = gss_svy %&gt;% 
+  group_by(year, reltrad) %&gt;%
+  summarize(prop = survey_mean(na.rm=T, proportion = T)) %&gt;%
+  drop_na()
+
+#A nice set o&#39; colors
+scFill = scale_color_manual(values = 
+                              c(&quot;#1B9E77&quot;, 
+                                &quot;#DDC849&quot;,
+                                &quot;#7570b3&quot;, 
+                                &quot;#a6761d&quot;,
+                                &quot;#e7298a&quot;,
+                                &quot;#1f78b4&quot;,
+                                &quot;#a9a9a9&quot;,
+                                &quot;#cc99ff&quot;))
+
+plotout = ggplot(data = out, 
+                 aes(x=year, 
+                     y=prop,
+                     color = reltrad,
+                     group = reltrad)) +
+  geom_ribbon(aes(ymin = prop - 1.96*prop_se,
+                  ymax = prop + 1.96*prop_se),
+                  color = &quot;white&quot;,
+                  alpha = .2, fill = &quot;grey&quot;) +
+  geom_point() +
+  geom_line() +
+  ylab(&quot;Proportion of US Population Identifying As...&quot;) +
+  xlab(&quot;&quot;) +
+  labs(title = &quot;Religious Affiliation in the United States&quot;,
+       subtitle = &quot;General Social Survey&quot;,
+       caption = &quot;David Eagle / Data: https://gss.norc.org/&quot;,
+       color = &quot;Religious Tradition&quot;)+
+  theme_minimal() + scFill +
+  theme(axis.text.x = element_text(angle = 70, hjust = 1)) +
+  ggtitle(&quot;Religious Affiliation in the United States 1972-2018&quot;)
+#ggsave(plotout,&quot;Output/reltradGSS.png&quot;, width = 12, height=5, dpi=&quot;retina&quot;)
+
+plotout</code></pre>
+<p><img src="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/index.en_files/figure-html/unnamed-chunk-1-1.png" width="960" /></p>
+</div>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-sheltonBlackReltradMeasuring2017" class="csl-entry">
+Shelton, Jason E., and Ryon J. Cobb. 2017. <span>“Black <span>Reltrad</span>: <span>Measuring Religious Diversity</span> and <span>Commonality Among African Americans</span>.”</span> <em>Journal for the Scientific Study of Religion</em> 56 (4): 737–64. <a href="https://doi.org/gfgw25">https://doi.org/gfgw25</a>.
+</div>
+<div id="ref-steenslandMeasureAmericanReligion2000" class="csl-entry">
+Steensland, B., L. D. Robinson, W. B. Wilcox, J. Z. Park, M. D. Regnerus, and R. D. Woodberry. 2000. <span>“The <span>Measure</span> of <span>American Religion</span>: <span>Toward Improving</span> the <span>State</span> of the <span>Art</span>.”</span> <em>Social Forces</em> 79 (1): 291–318. <a href="https://doi.org/db9hrh">https://doi.org/db9hrh</a>.
+</div>
+<div id="ref-stetzerReltradCodingProblems2016" class="csl-entry">
+Stetzer, Ed, and Ryan P. Burge. 2016. <span>“Reltrad <span>Coding Problems</span> and a <span>New Repository</span>.”</span> <em>Politics and Religion</em> 9 (01): 187–90. <a href="https://doi.org/gfkc5x">https://doi.org/gfkc5x</a>.
+</div>
+<div id="ref-woodberryMeasureAmericanReligious2012" class="csl-entry">
+Woodberry, R. D., J. Z. Park, L. A. Kellstedt, M. D. Regnerus, and B. Steensland. 2012. <span>“The <span>Measure</span> of <span>American Religious Traditions</span>: <span>Theoretical</span> and <span>Measurement Considerations</span>.”</span> <em>Social Forces</em> 91 (1): 65–73. <a href="https://doi.org/10.1093/sf/sos121">https://doi.org/10.1093/sf/sos121</a>.
+</div>
+</div>
+</div>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/religion/">Religion</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F&amp;text=Creating&#43;the&#43;Reltrad&#43;Variable&#43;in&#43;the&#43;General&#43;Social&#43;Survey&#43;Using&#43;R" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F&amp;t=Creating&#43;the&#43;Reltrad&#43;Variable&#43;in&#43;the&#43;General&#43;Social&#43;Survey&#43;Using&#43;R" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Creating%20the%20Reltrad%20Variable%20in%20the%20General%20Social%20Survey%20Using%20R&amp;body=https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F&amp;title=Creating&#43;the&#43;Reltrad&#43;Variable&#43;in&#43;the&#43;General&#43;Social&#43;Survey&#43;Using&#43;R" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Creating&#43;the&#43;Reltrad&#43;Variable&#43;in&#43;the&#43;General&#43;Social&#43;Survey&#43;Using&#43;R%20https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fxenodochial-yonath-5a40d0.netlify.app%2Fpost%2Fcreating-reltrad%2F&amp;title=Creating&#43;the&#43;Reltrad&#43;Variable&#43;in&#43;the&#43;General&#43;Social&#43;Survey&#43;Using&#43;R" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://xenodochial-yonath-5a40d0.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hu25d333fcded103db2f52f7476cb1420a_2097077_270x270_fill_q75_lanczos_center.jpg" alt="David E. Eagle, Ph.D."></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://xenodochial-yonath-5a40d0.netlify.app/">David E. Eagle, Ph.D.</a></h5>
+      <h6 class="card-subtitle">Assistant Research Professor</h6>
+      <p class="card-text">My research interests include the sociology of religion, theological education, and racial inequality.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:david.eagle@duke.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/davideaglephd" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=lXnqAUUAAAAJ&amp;hl=en&amp;oi=ao" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/thebigbird" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/deeagle" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv/EagleCV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2022 David Eagle. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.53d67dc2cb1ebceb89d5e2aba2f86112.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.00563890c7217b30a170c5215c6b86d8.js"></script>
+
+
+
+
+
+
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+        <pre><code></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

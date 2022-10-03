@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;Religion&#34; | Academic</title>
+    <title>Religion | Academic</title>
     <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/religion/</link>
       <atom:link href="https://xenodochial-yonath-5a40d0.netlify.app/tag/religion/index.xml" rel="self" type="application/rss+xml" />
-    <description>&#34;Religion&#34;</description>
+    <description>Religion</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 David Eagle</copyright><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png</url>
-      <title>&#34;Religion&#34;</title>
+      <title>Religion</title>
       <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/religion/</link>
     </image>
     
@@ -18,6 +18,109 @@
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/eagle-religion-caregiving-orphans-2019/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Creating the Reltrad Variable in the General Social Survey Using R</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/</link>
+      <pubDate>Tue, 06 Nov 2018 07:32:00 -0800</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/</guid>
+      <description>
+
+
+&lt;p&gt;Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in &lt;span class=&#34;citation&#34;&gt;Steensland et al. (&lt;a href=&#34;#ref-steenslandMeasureAmericanReligion2000&#34; role=&#34;doc-biblioref&#34;&gt;2000&lt;/a&gt;)&lt;/span&gt;, otherwise known as &lt;em&gt;reltrad&lt;/em&gt;, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;reltrad&lt;/em&gt; crowd continues to think their measure is pretty good &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-woodberryMeasureAmericanReligious2012&#34; role=&#34;doc-biblioref&#34;&gt;Woodberry et al. 2012&lt;/a&gt;)&lt;/span&gt;. A &lt;em&gt;reltrad&lt;/em&gt; for African Americans has been developed - this is required reading for those who use &lt;em&gt;reltrad&lt;/em&gt; in their research &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-sheltonBlackReltradMeasuring2017&#34; role=&#34;doc-biblioref&#34;&gt;Shelton and Cobb 2017&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;div id=&#34;code-conundrums&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Code Conundrums&lt;/h2&gt;
+&lt;p&gt;Up until now, the code to create the reltrad variable from the General Social Survey is scattered about. A PDF of Stata code for reltrad is available from Lifeway Research. They have R code, too. &lt;a href=&#34;https://github.com/ryanburge/reltrad&#34;&gt;Ryan Burge has code up on Github&lt;/a&gt;&lt;/p&gt;
+&lt;div id=&#34;a-better-reltrad-repository&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;A Better &lt;em&gt;Reltrad&lt;/em&gt; Repository&lt;/h3&gt;
+&lt;p&gt;I am providing &lt;a href=&#34;https://thebigbird/R_Stata_Reltrad&#34;&gt;&lt;strong&gt;my repository&lt;/strong&gt;&lt;/a&gt;, which I think is the best out there This has a Stata .do file and an R function. Note that I do incorporate the corrections suggested by &lt;span class=&#34;citation&#34;&gt;Stetzer and Burge (&lt;a href=&#34;#ref-stetzerReltradCodingProblems2016&#34; role=&#34;doc-biblioref&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt; . Using Kieran Healy’s gssr package, the sample code loads the gss datafile, dumps the oversamples, and then calls the function I’ve written (now mostly in dplyr) to create a &lt;em&gt;reltrad&lt;/em&gt; variable.&lt;/p&gt;
+&lt;p&gt;Again, &lt;a href=&#34;https://github.com/thebigbird/R_Stata_Reltrad&#34;&gt;github.com/thebigbird/R_Stata_Reltrad&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;an-example&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;An Example&lt;/h3&gt;
+&lt;p&gt;After the code is run, the results can be quickly plotted The following plot looks at how the religious composition of the US has changed over time.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;#Create a Figure for GSS attendanc= over time
+#Plot the proportions over time
+source(&amp;quot;https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R&amp;quot;)
+#See my github for the code to make these data
+
+#Cut by generation
+gss = gss %&amp;gt;% 
+  mutate(year = as.numeric(as.character(year))) %&amp;gt;%
+  mutate(birthyr = year - age) %&amp;gt;%
+  mutate(age_cat = cut(birthyr, c(0,1928,1945,1965,1981,1997,2020)))
+
+levels(gss$age_cat) = c(&amp;quot;Great&amp;quot;,&amp;quot;Silent&amp;quot;,&amp;quot;Boomer&amp;quot;,&amp;quot;GenX&amp;quot;,&amp;quot;Millenial&amp;quot;,&amp;quot;GenZ&amp;quot;)
+
+library(srvyr)
+#Calculate weighted proportions
+#Create survey object using svyr
+gss_svy &amp;lt;- gss %&amp;gt;% as_survey_design(1, weight = wtssall,
+                                    variables = c(year, reltrad, age_cat))
+
+#Now calculate proportions
+out = gss_svy %&amp;gt;% 
+  group_by(year, reltrad) %&amp;gt;%
+  summarize(prop = survey_mean(na.rm=T, proportion = T)) %&amp;gt;%
+  drop_na()
+
+#A nice set o&amp;#39; colors
+scFill = scale_color_manual(values = 
+                              c(&amp;quot;#1B9E77&amp;quot;, 
+                                &amp;quot;#DDC849&amp;quot;,
+                                &amp;quot;#7570b3&amp;quot;, 
+                                &amp;quot;#a6761d&amp;quot;,
+                                &amp;quot;#e7298a&amp;quot;,
+                                &amp;quot;#1f78b4&amp;quot;,
+                                &amp;quot;#a9a9a9&amp;quot;,
+                                &amp;quot;#cc99ff&amp;quot;))
+
+plotout = ggplot(data = out, 
+                 aes(x=year, 
+                     y=prop,
+                     color = reltrad,
+                     group = reltrad)) +
+  geom_ribbon(aes(ymin = prop - 1.96*prop_se,
+                  ymax = prop + 1.96*prop_se),
+                  color = &amp;quot;white&amp;quot;,
+                  alpha = .2, fill = &amp;quot;grey&amp;quot;) +
+  geom_point() +
+  geom_line() +
+  ylab(&amp;quot;Proportion of US Population Identifying As...&amp;quot;) +
+  xlab(&amp;quot;&amp;quot;) +
+  labs(title = &amp;quot;Religious Affiliation in the United States&amp;quot;,
+       subtitle = &amp;quot;General Social Survey&amp;quot;,
+       caption = &amp;quot;David Eagle / Data: https://gss.norc.org/&amp;quot;,
+       color = &amp;quot;Religious Tradition&amp;quot;)+
+  theme_minimal() + scFill +
+  theme(axis.text.x = element_text(angle = 70, hjust = 1)) +
+  ggtitle(&amp;quot;Religious Affiliation in the United States 1972-2018&amp;quot;)
+#ggsave(plotout,&amp;quot;Output/reltradGSS.png&amp;quot;, width = 12, height=5, dpi=&amp;quot;retina&amp;quot;)
+
+plotout&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/index.en_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;960&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references csl-bib-body hanging-indent&#34;&gt;
+&lt;div id=&#34;ref-sheltonBlackReltradMeasuring2017&#34; class=&#34;csl-entry&#34;&gt;
+Shelton, Jason E., and Ryon J. Cobb. 2017. &lt;span&gt;“Black &lt;span&gt;Reltrad&lt;/span&gt;: &lt;span&gt;Measuring Religious Diversity&lt;/span&gt; and &lt;span&gt;Commonality Among African Americans&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Journal for the Scientific Study of Religion&lt;/em&gt; 56 (4): 737–64. &lt;a href=&#34;https://doi.org/gfgw25&#34;&gt;https://doi.org/gfgw25&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-steenslandMeasureAmericanReligion2000&#34; class=&#34;csl-entry&#34;&gt;
+Steensland, B., L. D. Robinson, W. B. Wilcox, J. Z. Park, M. D. Regnerus, and R. D. Woodberry. 2000. &lt;span&gt;“The &lt;span&gt;Measure&lt;/span&gt; of &lt;span&gt;American Religion&lt;/span&gt;: &lt;span&gt;Toward Improving&lt;/span&gt; the &lt;span&gt;State&lt;/span&gt; of the &lt;span&gt;Art&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Social Forces&lt;/em&gt; 79 (1): 291–318. &lt;a href=&#34;https://doi.org/db9hrh&#34;&gt;https://doi.org/db9hrh&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-stetzerReltradCodingProblems2016&#34; class=&#34;csl-entry&#34;&gt;
+Stetzer, Ed, and Ryan P. Burge. 2016. &lt;span&gt;“Reltrad &lt;span&gt;Coding Problems&lt;/span&gt; and a &lt;span&gt;New Repository&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Politics and Religion&lt;/em&gt; 9 (01): 187–90. &lt;a href=&#34;https://doi.org/gfkc5x&#34;&gt;https://doi.org/gfkc5x&lt;/a&gt;.
+&lt;/div&gt;
+&lt;div id=&#34;ref-woodberryMeasureAmericanReligious2012&#34; class=&#34;csl-entry&#34;&gt;
+Woodberry, R. D., J. Z. Park, L. A. Kellstedt, M. D. Regnerus, and B. Steensland. 2012. &lt;span&gt;“The &lt;span&gt;Measure&lt;/span&gt; of &lt;span&gt;American Religious Traditions&lt;/span&gt;: &lt;span&gt;Theoretical&lt;/span&gt; and &lt;span&gt;Measurement Considerations&lt;/span&gt;.”&lt;/span&gt; &lt;em&gt;Social Forces&lt;/em&gt; 91 (1): 65–73. &lt;a href=&#34;https://doi.org/10.1093/sf/sos121&#34;&gt;https://doi.org/10.1093/sf/sos121&lt;/a&gt;.
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     
   </channel>
