@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  19 OCT 2022 17:41
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  11 NOV 2022 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -669,7 +669,7 @@ $[]$ $[]$
  []
 
 (./employment.tex
-Overfull \hbox (6.94714pt too wide) in alignment at lines 3--14
+Overfull \hbox (6.94714pt too wide) in alignment at lines 5--19
  [] [] 
  []
 
@@ -678,29 +678,35 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
  [] [] 
  []
 
-) (./publications.tex [1
+) (./publications.tex
+Overfull \hbox (1.73822pt too wide) in paragraph at lines 10--11
+[]\TU/Garamond3LTStd(0)/b/n/12 Gaghan, J.A. & Eagle, D.E. (2022). “Introducing 
+the Seminary to Early Ministry Study.”
+ []
+
+[1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
- [2] [3] [4]) (./grants.tex
-Overfull \hbox (45.3209pt too wide) in alignment at lines 3--27
- [] [] 
- []
-
-[5]
-Overfull \hbox (45.3209pt too wide) in alignment at lines 30--54
+(Font)              <5> on input line 35.
+ [2] [3] [4]) (./grants.tex [5]
+Overfull \hbox (45.3209pt too wide) in alignment at lines 4--34
  [] [] 
  []
 
 
-Overfull \hbox (45.3209pt too wide) in alignment at lines 57--65
+Overfull \hbox (45.3209pt too wide) in alignment at lines 37--61
  [] [] 
  []
 
-[6]) (./teaching.tex
+[6]
+Overfull \hbox (45.3209pt too wide) in alignment at lines 64--72
+ [] [] 
+ []
+
+) (./teaching.tex
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 4--11
 [][] 
  []
@@ -710,23 +716,23 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 14--21
 [][] 
  []
 
-) (./talks.tex
+[7]) (./talks.tex
 Overfull \hbox (23.99998pt too wide) in paragraph at lines 24--1
 [][]
  []
 
 
-Overfull \hbox (2.68556pt too wide) in alignment at lines 3--5
+Overfull \hbox (2.68556pt too wide) in alignment at lines 3--9
  [] [] 
  []
 
 
-Overfull \hbox (2.68556pt too wide) in alignment at lines 8--85
+Overfull \hbox (2.68556pt too wide) in alignment at lines 12--96
  [] [] 
  []
 
-[7] [8] [9]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 88--100
+[8] [9] [10]
+Overfull \hbox (2.68556pt too wide) in alignment at lines 99--111
  [] [] 
  []
 
@@ -735,22 +741,27 @@ Overfull \hbox (45.3209pt too wide) in alignment at lines 3--23
  [] [] 
  []
 
-[10]) (./activities.tex
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 6--14
+[11]) (./activities.tex
+Overfull \hbox (2.68556pt too wide) in paragraph at lines 5--9
 [][] 
  []
 
-) [11] (./EagleCV.aux)
+
+Overfull \hbox (2.68556pt too wide) in paragraph at lines 12--20
+[][] 
+ []
+
+) [12] (./EagleCV.aux)
 Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  14043 strings out of 476179
  272265 string characters out of 5809545
- 684969 words of memory out of 5000000
+ 686969 words of memory out of 5000000
  34563 multiletter control sequences out of 15000+600000
  472611 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,14n,100p,989b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,100p,989b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on EagleCV.pdf (11 pages).
+Output written on EagleCV.pdf (12 pages).
