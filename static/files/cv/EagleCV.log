@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  11 NOV 2022 09:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  18 NOV 2022 11:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,7 +679,7 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
  []
 
 ) (./publications.tex
-Overfull \hbox (1.73822pt too wide) in paragraph at lines 10--11
+Overfull \hbox (1.73822pt too wide) in paragraph at lines 12--13
 []\TU/Garamond3LTStd(0)/b/n/12 Gaghan, J.A. & Eagle, D.E. (2022). “Introducing 
 the Seminary to Early Ministry Study.”
  []
@@ -688,9 +688,9 @@ the Seminary to Early Ministry Study.”
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
+(Font)              <5> on input line 37.
  [2] [3] [4]) (./grants.tex [5]
 Overfull \hbox (45.3209pt too wide) in alignment at lines 4--34
  [] [] 
@@ -762,6 +762,6 @@ Here is how much of TeX's memory you used:
  34563 multiletter control sequences out of 15000+600000
  472611 words of font info for 70 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,14n,100p,989b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,100p,989b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on EagleCV.pdf (12 pages).
