@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  18 NOV 2022 11:18
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  21 NOV 2022 15:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -393,8 +393,7 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package fontspec Info: Font family 'Garamond3LTStd(0)' created for font
 (fontspec)             'Garamond 3 LT Std' with options
 (fontspec)             [Ligatures=TeX,Mapping={tex-text},Numbers={OldStyle},Lig
-atures={Common},BoldFont={Garamond
-(fontspec)             3 LT Std}].
+atures={Common}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
 (fontspec)             series/shapes:
@@ -407,20 +406,20 @@ atures={Common},BoldFont={Garamond
 (fontspec)             Std/OT:script=latn;language=dflt;+onum;+liga;+smcp;mappi
 ng=tex-text;"
 (fontspec)             - 'bold' (b/n) with NFSS spec.: <->"Garamond 3 LT
-(fontspec)             Std/OT:script=latn;language=dflt;+onum;+liga;mapping=tex
--text;"
+(fontspec)             Std/B/OT:script=latn;language=dflt;+onum;+liga;mapping=t
+ex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
 (fontspec)             <->"Garamond 3 LT
-(fontspec)             Std/OT:script=latn;language=dflt;+onum;+liga;+smcp;mappi
-ng=tex-text;"
+(fontspec)             Std/B/OT:script=latn;language=dflt;+onum;+liga;+smcp;map
+ping=tex-text;"
 (fontspec)             - 'italic' (m/it) with NFSS spec.: <->"Garamond 3 LT
 (fontspec)             Std/I/OT:script=latn;language=dflt;+onum;+liga;mapping=t
 ex-text;"
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Garamond 3
 (fontspec)             LT
-(fontspec)             Std/I/OT:script=latn;language=dflt;+onum;+liga;mapping=t
-ex-text;"
+(fontspec)             Std/BI/OT:script=latn;language=dflt;+onum;+liga;mapping=
+tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
@@ -678,31 +677,25 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
  [] [] 
  []
 
-) (./publications.tex
-Overfull \hbox (1.73822pt too wide) in paragraph at lines 12--13
-[]\TU/Garamond3LTStd(0)/b/n/12 Gaghan, J.A. & Eagle, D.E. (2022). “Introducing 
-the Seminary to Early Ministry Study.”
- []
-
-[1
+) (./publications.tex [1
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 35.
  [2] [3] [4]) (./grants.tex [5]
-Overfull \hbox (45.3209pt too wide) in alignment at lines 4--34
+Overfull \hbox (45.3209pt too wide) in alignment at lines 4--33
  [] [] 
  []
 
 
-Overfull \hbox (45.3209pt too wide) in alignment at lines 37--61
+Overfull \hbox (45.3209pt too wide) in alignment at lines 36--60
  [] [] 
  []
 
 [6]
-Overfull \hbox (45.3209pt too wide) in alignment at lines 64--72
+Overfull \hbox (45.3209pt too wide) in alignment at lines 63--71
  [] [] 
  []
 
@@ -716,12 +709,12 @@ Overfull \hbox (23.99998pt too wide) in paragraph at lines 14--21
 [][] 
  []
 
-[7]) (./talks.tex
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 24--1
+[7]
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 24--28
 [][]
  []
 
-
+) (./talks.tex
 Overfull \hbox (2.68556pt too wide) in alignment at lines 3--9
  [] [] 
  []
@@ -751,17 +744,17 @@ Overfull \hbox (2.68556pt too wide) in paragraph at lines 12--20
 [][] 
  []
 
-) [12] (./EagleCV.aux)
+) [12] [13] (./EagleCV.aux)
 Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14043 strings out of 476179
- 272265 string characters out of 5809545
- 686969 words of memory out of 5000000
- 34563 multiletter control sequences out of 15000+600000
- 472611 words of font info for 70 fonts, out of 8000000 for 9000
+ 14055 strings out of 476179
+ 272984 string characters out of 5809545
+ 687911 words of memory out of 5000000
+ 34568 multiletter control sequences out of 15000+600000
+ 472651 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,14n,100p,989b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,100p,989b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on EagleCV.pdf (12 pages).
+Output written on EagleCV.pdf (13 pages).
