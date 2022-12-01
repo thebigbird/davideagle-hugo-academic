@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  21 NOV 2022 15:51
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  1 DEC 2022 09:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -668,7 +668,7 @@ $[]$ $[]$
  []
 
 (./employment.tex
-Overfull \hbox (6.94714pt too wide) in alignment at lines 5--19
+Overfull \hbox (6.94714pt too wide) in alignment at lines 3--17
  [] [] 
  []
 
@@ -700,41 +700,46 @@ Overfull \hbox (45.3209pt too wide) in alignment at lines 63--71
  []
 
 ) (./teaching.tex
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 4--11
+Overfull \hbox (12.0pt too wide) in paragraph at lines 4--11
 [][] 
  []
 
 
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 14--21
+Overfull \hbox (12.0pt too wide) in paragraph at lines 14--21
 [][] 
  []
 
-[7]
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 24--28
+[7]) (./talks.tex
+Overfull \hbox (12.0pt too wide) in paragraph at lines 31--1
 [][]
  []
 
-) (./talks.tex
-Overfull \hbox (2.68556pt too wide) in alignment at lines 3--9
- [] [] 
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--1
+
  []
 
 
-Overfull \hbox (2.68556pt too wide) in alignment at lines 12--96
+Overfull \hbox (2.68556pt too wide) in alignment at lines 3--7
  [] [] 
  []
 
-[8] [9] [10]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 99--111
+[8]
+Overfull \hbox (2.68556pt too wide) in alignment at lines 10--94
  [] [] 
  []
 
-) (./awards.tex
+[9] [10]
+Overfull \hbox (2.68556pt too wide) in alignment at lines 97--109
+ [] [] 
+ []
+
+[11]) (./awards.tex
 Overfull \hbox (45.3209pt too wide) in alignment at lines 3--23
  [] [] 
  []
 
-[11]) (./activities.tex
+) (./activities.tex
 Overfull \hbox (2.68556pt too wide) in paragraph at lines 5--9
 [][] 
  []
@@ -744,14 +749,14 @@ Overfull \hbox (2.68556pt too wide) in paragraph at lines 12--20
 [][] 
  []
 
-) [12] [13] (./EagleCV.aux)
+[12]) [13] (./EagleCV.aux)
 Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  14055 strings out of 476179
  272984 string characters out of 5809545
- 687911 words of memory out of 5000000
+ 682911 words of memory out of 5000000
  34568 multiletter control sequences out of 15000+600000
  472651 words of font info for 75 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
