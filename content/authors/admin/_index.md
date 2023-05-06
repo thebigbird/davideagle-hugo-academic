@@ -85,8 +85,8 @@ I am an expert on the health of religious clergy, the changing role of churches 
 
 I am Principal Investigator of [The Seminary to Early Ministry Study](http://semstudy.org), a multi-year, multi-cohort study seeking to understand how seminary impacts the health, occupational wellbeing, theology, and career trajectories of students.
 
-Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data. I am one of the lead methodologists on a large respondent-driven sampling project of sexual and gender minority populations in Kenya, Brazil and Vietnam.
+Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data.
 
-My research is published in the Journal of Religion and Health, the Journal of Social and Personal Relationships, the Annals of Behavioral Medicine, the American Journal of Preventive Medicine, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, and the Review of Religious Research.
+My research is published in the American Journal of Sociology, Journal of Religion and Health, the Journal of Social and Personal Relationships, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, and the Review of Religious Research.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv/EagleCV.pdf" "newtab" >}}resumé{{< /staticref >}}.
