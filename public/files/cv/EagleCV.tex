@@ -33,6 +33,10 @@ Duke University
 \titlespacing{\subsubsection}{0pt}{0.5ex}{0ex}
 % Control the font size
 \usepackage{anyfontsize}
+%highlighing
+
+\usepackage{soul}
+\sethlcolor{yellow}
 
 % Longtable
 \usepackage{longtable}
@@ -85,8 +89,8 @@ Duke University
 
 % Set fonts. Requires compilation with xelatex
 \usepackage{fontspec}
-
-\setmainfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}, BoldFont={Garamond 3 LT Std}]{Garamond 3 LT Std}
+%, BoldFont={Garamond 3 LT Std} add this to get rid of bold
+\setmainfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Garamond 3 LT Std}
 \setmonofont{Consolas}[Scale=.7]
 %\usepackage{fontawesome}
 
@@ -127,8 +131,8 @@ Duke University
 \begin{center}
     {\fontsize{24pt}{0}\selectfont \MyName}
     \\[0.3cm]
-   % {\fontsize{16pt}{0}\selectfont \MyRole}
-    %\\[0.3cm]
+ %  {\fontsize{12pt}{0}\selectfont *Canadian Citizen}
+  %\\[0.3cm]
 \end{center}
 
   \noindent
