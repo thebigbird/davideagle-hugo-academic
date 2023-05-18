@@ -8,7 +8,6 @@ summary: ''
 authors:
 - David E. Eagle
 tags:
-- '"🔍No DOI found"'
 categories: []
 date: '2010-01-01'
 lastmod: 2021-08-27T21:56:54-04:00
@@ -50,4 +49,5 @@ abstract: The debate surrounding the morality of homosexual marriage is one of t
   who would argue for some special innate characteristic within Jews that makes them
   special and within Gentiles that makes them depraved.
 publication: '*Conrad Grebel Review*'
+doi:10.31235/osf.io/2hgfk
 ---
