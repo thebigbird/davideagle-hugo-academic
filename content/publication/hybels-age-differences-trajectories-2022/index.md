@@ -11,14 +11,14 @@ authors:
 - David E. Eagle
 - Rae Jean Proeschold-Bell
 tags:
-- '"burnout"'
-- '"depression"'
-- '"anxiety"'
-- '"elderly"'
-- '"trajectories"'
+- burnout
+- depression
+- anxiety
+- elderly
+- trajectories
 categories: []
-date: '2020-01-01'
-lastmod: 2021-08-27T21:56:56-04:00
+date: '2022-01-01'
+lastmod: 2023-05-18T11:17:09-04:00
 featured: false
 draft: false
 
@@ -36,7 +36,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-08-28T01:56:55.975749Z'
+publishDate: '2023-05-18T15:17:09.231967Z'
 publication_types:
 - '2'
 abstract: 'Objectives:Work in occupations with higher levels of occupational stress
@@ -60,6 +60,8 @@ abstract: 'Objectives:Work in occupations with higher levels of occupational str
   that allows these older adults to appear to tolerate working longer without poorer
   mental health outcomes.'
 publication: '*International Psychogeriatrics*'
-url_pdf: http://www.cambridge.org/core/journals/international-psychogeriatrics/article/age-differences-in-trajectories-of-depressive-anxiety-and-burnout-symptoms-in-a-population-with-a-high-likelihood-of-persistent-occupational-distress/67CE53C73A6C18869E76AA9A9CCBEF69
 doi: 10.1017/S1041610220001751
+links:
+- name: URL
+  url: http://www.cambridge.org/core/journals/international-psychogeriatrics/article/age-differences-in-trajectories-of-depressive-anxiety-and-burnout-symptoms-in-a-population-with-a-high-likelihood-of-persistent-occupational-distress/67CE53C73A6C18869E76AA9A9CCBEF69
 ---
