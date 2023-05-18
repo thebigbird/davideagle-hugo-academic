@@ -49,5 +49,5 @@ abstract: The debate surrounding the morality of homosexual marriage is one of t
   who would argue for some special innate characteristic within Jews that makes them
   special and within Gentiles that makes them depraved.
 publication: '*Conrad Grebel Review*'
-doi:10.31235/osf.io/2hgfk
+doi: 10.31235/osf.io/2hgfk
 ---
