@@ -1,12 +1,12 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Divine Struggles Among Those Doing God’s Work: A Longitudinal Assessment Predicting Depression and Burnout and the Role of Social Support in United Methodist Clergy"
+title: "Are Women Elders Paid Less than Men? A brief report from the North Carolina Statewide Longitudinal Survey of United Methodist Clergy"
 authors:
-- Laura Upenieks
+- Joshua Gaghan
 - David Eagle
-date: 2023-05-08T08:22:54-04:00
-doi: "10.1093/socrel/srad014"
+date: 2023-01-01T08:22:54-04:00
+doi: "10.1007/s13644-022-00522-0"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-08T08:22:54-04:00
@@ -18,20 +18,18 @@ publishDate: 2023-05-08T08:22:54-04:00
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Sociology of Religion*"
+publication: "*Review of Religious Research*"
 publication_short: ""
 
-abstract: "In this study, we examine the role of spiritual struggles among clergy, in the form of “divine struggle” or feelings of alienation from God and their associations with well-being (depressive symptoms and burnout) among clergy. Drawing from a life-stress perspective, we also test whether received and anticipated congregational support moderates these associations. Using two waves of data (2016– 2019) of the Clergy Panel Health Survey of United Methodist clergy in North Carolina (n = 1,261), results suggest that it was clergy who increased in divine struggles over time who had the highest de- pressive symptom and burnout scores. However, clergy who received significant emotional support from members of their congregation were protected from elevated depressive symptoms and greater burnout. Anticipated congregational support only buffered the relationship between increasing divine struggles and one component of burnout (positive achievement). We offer some broader implications for supporting clergy well-being in the face of divine struggles."
+abstract: "
+Our analysis suggests that, while male elders have significantly higher salaries than their female counterparts, these two groups have been equitably compensated for the past decade. These two phenomena can both exist because past gender disparities reverberate long into the careers of clergy. This is because, even though salaries across genders may be treated equally now, they are not making up for lost ground. For example, women starting in ministry in 1990 may have experienced the same rate of salary growth as men from 2010 to 2020, but earned less during this timeframe because they entered this period with lower initial salaries than men. For this reason, our model predicts that, although the salary trajectories for men and women were equal starting ministry in 2010, it may be another decade before there is no difference between the average salaries of men and women pastors. Nevertheless, this projection assumes that recent trends persist—something that remains to be seen. Only time will tell if this continues or if women will hit a glass ceiling as their careers unfold."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
 tags:
-- divine struggles
+- salary
 - clergy
-- depressive symptoms
-- burnout
-- longitudinal analysis
 categories: []
 featured: false
 
@@ -42,8 +40,7 @@ featured: false
 #   url: https://twitter.com
 #   icon_pack: fab
 #   icon: twitter
-
-url_pdf:
+url_pdf: "https://divinity.duke.edu/sites/divinity.duke.edu/files/documents/chi/Salary%20and%20Gender%20in%20UMC%20-%20Final.pdf"
 url_code:
 url_dataset:
 url_poster:
