@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>&#34;burnout&#34; | Academic</title>
+    <title>burnout | Academic</title>
     <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/burnout/</link>
       <atom:link href="https://xenodochial-yonath-5a40d0.netlify.app/tag/burnout/index.xml" rel="self" type="application/rss+xml" />
-    <description>&#34;burnout&#34;</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 David Eagle</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <description>burnout</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 David Eagle</copyright><lastBuildDate>Mon, 08 May 2023 08:22:54 -0400</lastBuildDate>
     <image>
       <url>https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png</url>
-      <title>&#34;burnout&#34;</title>
+      <title>burnout</title>
       <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/burnout/</link>
     </image>
     
     <item>
+      <title>Divine Struggles Among Those Doing God’s Work: A Longitudinal Assessment Predicting Depression and Burnout and the Role of Social Support in United Methodist Clergy</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication/upenieks-eagle-divine-struggles-2023/</link>
+      <pubDate>Mon, 08 May 2023 08:22:54 -0400</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/upenieks-eagle-divine-struggles-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Age differences in trajectories of depressive, anxiety, and burnout symptoms in a population with a high likelihood of persistent occupational distress</title>
-      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication/hybels-age-differences-trajectories-2020/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/hybels-age-differences-trajectories-2020/</guid>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/publication/hybels-age-differences-trajectories-2022/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/publication/hybels-age-differences-trajectories-2022/</guid>
       <description></description>
     </item>
     
