@@ -46,4 +46,5 @@ abstract: 'Many theologians have recently argued that atonement theories related
   questions about Weaver’s work and attempt to explain how Bartlett’s paradigm offers
   a better approach.'
 publication: '*Conrad Grebel Review*'
+doi: 10.31235/osf.io/zg5w3
 ---
