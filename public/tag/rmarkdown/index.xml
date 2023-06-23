@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rmarkdown | Academic</title>
+    <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/rmarkdown/</link>
+      <atom:link href="https://xenodochial-yonath-5a40d0.netlify.app/tag/rmarkdown/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rmarkdown</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 David Eagle</copyright><lastBuildDate>Mon, 12 Jun 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://xenodochial-yonath-5a40d0.netlify.app/media/icon_hu8b5dd4b974e2e50e47491a61f5fd71bd_1432_512x512_fill_lanczos_center_3.png</url>
+      <title>Rmarkdown</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/tag/rmarkdown/</link>
+    </image>
+    
+    <item>
+      <title>Creating a new post on a Hugo website</title>
+      <link>https://xenodochial-yonath-5a40d0.netlify.app/post/another-test-post/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://xenodochial-yonath-5a40d0.netlify.app/post/another-test-post/</guid>
+      <description>&lt;p&gt;Blogdown is a tricky program because it requires remembering all kinds of arcane commands. This post explains how to create and edit new posts. The first step is to run the &lt;em&gt;blogdown::new_post()&lt;/em&gt; command or click the Addins -&amp;gt; New Post button in RStudio.&lt;/p&gt;
+&lt;p&gt;Once this is done and the details are all filled out, the file can be rendered locally with &lt;em&gt;blogdown::build_site(build_rmd = &amp;ldquo;timestamp&amp;rdquo;)&lt;/em&gt;, which rebuilds all markdown files whose timestamp have been changed. From here you can serve the site and see what it looks like locally.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

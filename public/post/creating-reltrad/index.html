@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: May 24, 2023 --><html lang="en-us" >
+<!-- Last Published: June 12, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -411,7 +411,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="3d0a96fb2832f971591b03888498c46f" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="aa1f6a6429e79a4631c572c5f3c574c7" >
 
   
   
@@ -760,99 +760,88 @@
   <div class="article-container">
 
     <div class="article-style">
-      
-
-
-<p>Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in <span class="citation">Steensland et al. (<a href="#ref-steenslandMeasureAmericanReligion2000" role="doc-biblioref">2000</a>)</span>, otherwise known as <em>reltrad</em>, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College.</p>
-<p>The <em>reltrad</em> crowd continues to think their measure is pretty good <span class="citation">(<a href="#ref-woodberryMeasureAmericanReligious2012" role="doc-biblioref">Woodberry et al. 2012</a>)</span>. A <em>reltrad</em> for African Americans has been developed - this is required reading for those who use <em>reltrad</em> in their research <span class="citation">(<a href="#ref-sheltonBlackReltradMeasuring2017" role="doc-biblioref">Shelton and Cobb 2017</a>)</span>.</p>
-<div id="code-conundrums" class="section level2">
-<h2>Code Conundrums</h2>
-<p>Up until now, the code to create the reltrad variable from the General Social Survey is scattered about. A PDF of Stata code for reltrad is available from Lifeway Research. They have R code, too. <a href="https://github.com/ryanburge/reltrad">Ryan Burge has code up on Github</a></p>
-<div id="a-better-reltrad-repository" class="section level3">
-<h3>A Better <em>Reltrad</em> Repository</h3>
-<p>I am providing <a href="https://thebigbird/R_Stata_Reltrad"><strong>my repository</strong></a>, which I think is the best out there This has a Stata .do file and an R function. Note that I do incorporate the corrections suggested by <span class="citation">Stetzer and Burge (<a href="#ref-stetzerReltradCodingProblems2016" role="doc-biblioref">2016</a>)</span> . Using Kieran Healy’s gssr package, the sample code loads the gss datafile, dumps the oversamples, and then calls the function I’ve written (now mostly in dplyr) to create a <em>reltrad</em> variable.</p>
-<p>Again, <a href="https://github.com/thebigbird/R_Stata_Reltrad">github.com/thebigbird/R_Stata_Reltrad</a>.</p>
-</div>
-<div id="an-example" class="section level3">
-<h3>An Example</h3>
+      <p>Haven’t you always wanted an easy to access R script to create the famous reltrad religious categorizaton in the General Social Survey? Well, today is your lucky day.The measure of religious affiliation described in Steensland et al. (2000), otherwise known as <em>reltrad</em>, remains the most popular way to categorize people religiously in the United States. Early development of the measure was done by Corwin Smidt, Bud Kellstedt and James Guth during their annual seminars on measuring religion offered at Calvin College.</p>
+<p>The <em>reltrad</em> crowd continues to think their measure is pretty good (Woodberry et al. 2012). A <em>reltrad</em> for African Americans has been developed - this is required reading for those who use <em>reltrad</em> in their research (Shelton and Cobb 2017).</p>
+<h2 id="code-conundrums">Code Conundrums</h2>
+<p>Up until now, the code to create the reltrad variable from the General Social Survey is scattered about. A PDF of Stata code for reltrad is available from Lifeway Research. They have R code, too. <a href="https://github.com/ryanburge/reltrad" target="_blank" rel="noopener">Ryan Burge has code up on Github</a></p>
+<h3 id="a-better-reltrad-repository">A Better <em>Reltrad</em> Repository</h3>
+<p>I am providing <a href="https://thebigbird/R_Stata_Reltrad" target="_blank" rel="noopener"><strong>my repository</strong></a>, which I think is the best out there This has a Stata .do file and an R function. Note that I do incorporate the corrections suggested by Stetzer and Burge (2016) . Using Kieran Healy’s gssr package, the sample code loads the gss datafile, dumps the oversamples, and then calls the function I’ve written (now mostly in dplyr) to create a <em>reltrad</em> variable.</p>
+<p>Again, <a href="https://github.com/thebigbird/R_Stata_Reltrad" target="_blank" rel="noopener">github.com/thebigbird/R_Stata_Reltrad</a>.</p>
+<h3 id="an-example">An Example</h3>
 <p>After the code is run, the results can be quickly plotted The following plot looks at how the religious composition of the US has changed over time.</p>
-<pre class="r"><code>#Create a Figure for GSS attendanc= over time
-#Plot the proportions over time
-source(&quot;https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R&quot;)
-#See my github for the code to make these data
-
-#Cut by generation
-gss = gss %&gt;% 
-  mutate(year = as.numeric(as.character(year))) %&gt;%
-  mutate(birthyr = year - age) %&gt;%
-  mutate(age_cat = cut(birthyr, c(0,1928,1945,1965,1981,1997,2020)))
-
-levels(gss$age_cat) = c(&quot;Great&quot;,&quot;Silent&quot;,&quot;Boomer&quot;,&quot;GenX&quot;,&quot;Millenial&quot;,&quot;GenZ&quot;)
-
-library(srvyr)
-#Calculate weighted proportions
-#Create survey object using svyr
-gss_svy &lt;- gss %&gt;% as_survey_design(1, weight = wtssall,
-                                    variables = c(year, reltrad, age_cat))
-
-#Now calculate proportions
-out = gss_svy %&gt;% 
-  group_by(year, reltrad) %&gt;%
-  summarize(prop = survey_mean(na.rm=T, proportion = T)) %&gt;%
-  drop_na()
-
-#A nice set o&#39; colors
-scFill = scale_color_manual(values = 
-                              c(&quot;#1B9E77&quot;, 
-                                &quot;#DDC849&quot;,
-                                &quot;#7570b3&quot;, 
-                                &quot;#a6761d&quot;,
-                                &quot;#e7298a&quot;,
-                                &quot;#1f78b4&quot;,
-                                &quot;#a9a9a9&quot;,
-                                &quot;#cc99ff&quot;))
-
-plotout = ggplot(data = out, 
-                 aes(x=year, 
-                     y=prop,
-                     color = reltrad,
-                     group = reltrad)) +
-  geom_ribbon(aes(ymin = prop - 1.96*prop_se,
-                  ymax = prop + 1.96*prop_se),
-                  color = &quot;white&quot;,
-                  alpha = .2, fill = &quot;grey&quot;) +
-  geom_point() +
-  geom_line() +
-  ylab(&quot;Proportion of US Population Identifying As...&quot;) +
-  xlab(&quot;&quot;) +
-  labs(title = &quot;Religious Affiliation in the United States&quot;,
-       subtitle = &quot;General Social Survey&quot;,
-       caption = &quot;David Eagle / Data: https://gss.norc.org/&quot;,
-       color = &quot;Religious Tradition&quot;)+
-  theme_minimal() + scFill +
-  theme(axis.text.x = element_text(angle = 70, hjust = 1)) +
-  ggtitle(&quot;Religious Affiliation in the United States 1972-2018&quot;)
-#ggsave(plotout,&quot;Output/reltradGSS.png&quot;, width = 12, height=5, dpi=&quot;retina&quot;)
-
-plotout</code></pre>
-<p><img src="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/index.en_files/figure-html/unnamed-chunk-1-1.png" width="960" /></p>
-</div>
-</div>
-<div id="references" class="section level2 unnumbered">
-<h2>References</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-r" data-lang="r"><span class="line"><span class="cl"><span class="c1">#Create a Figure for GSS attendanc= over time</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Plot the proportions over time</span>
+</span></span><span class="line"><span class="cl"><span class="nf">source</span><span class="p">(</span><span class="s">&#34;https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#See my github for the code to make these data</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Cut by generation</span>
+</span></span><span class="line"><span class="cl"><span class="n">gss</span> <span class="o">=</span> <span class="n">gss</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">year</span> <span class="o">=</span> <span class="nf">as.numeric</span><span class="p">(</span><span class="nf">as.character</span><span class="p">(</span><span class="n">year</span><span class="p">)))</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">birthyr</span> <span class="o">=</span> <span class="n">year</span> <span class="o">-</span> <span class="n">age</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">mutate</span><span class="p">(</span><span class="n">age_cat</span> <span class="o">=</span> <span class="nf">cut</span><span class="p">(</span><span class="n">birthyr</span><span class="p">,</span> <span class="nf">c</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">1928</span><span class="p">,</span><span class="m">1945</span><span class="p">,</span><span class="m">1965</span><span class="p">,</span><span class="m">1981</span><span class="p">,</span><span class="m">1997</span><span class="p">,</span><span class="m">2020</span><span class="p">)))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">levels</span><span class="p">(</span><span class="n">gss</span><span class="o">$</span><span class="n">age_cat</span><span class="p">)</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&#34;Great&#34;</span><span class="p">,</span><span class="s">&#34;Silent&#34;</span><span class="p">,</span><span class="s">&#34;Boomer&#34;</span><span class="p">,</span><span class="s">&#34;GenX&#34;</span><span class="p">,</span><span class="s">&#34;Millenial&#34;</span><span class="p">,</span><span class="s">&#34;GenZ&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nf">library</span><span class="p">(</span><span class="n">srvyr</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Calculate weighted proportions</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#Create survey object using svyr</span>
+</span></span><span class="line"><span class="cl"><span class="n">gss_svy</span> <span class="o">&lt;-</span> <span class="n">gss</span> <span class="o">%&gt;%</span> <span class="nf">as_survey_design</span><span class="p">(</span><span class="m">1</span><span class="p">,</span> <span class="n">weight</span> <span class="o">=</span> <span class="n">wtssall</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                    <span class="n">variables</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">reltrad</span><span class="p">,</span> <span class="n">age_cat</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#Now calculate proportions</span>
+</span></span><span class="line"><span class="cl"><span class="n">out</span> <span class="o">=</span> <span class="n">gss_svy</span> <span class="o">%&gt;%</span> 
+</span></span><span class="line"><span class="cl">  <span class="nf">group_by</span><span class="p">(</span><span class="n">year</span><span class="p">,</span> <span class="n">reltrad</span><span class="p">)</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">summarize</span><span class="p">(</span><span class="n">prop</span> <span class="o">=</span> <span class="nf">survey_mean</span><span class="p">(</span><span class="n">na.rm</span><span class="o">=</span><span class="bp">T</span><span class="p">,</span> <span class="n">proportion</span> <span class="o">=</span> <span class="bp">T</span><span class="p">))</span> <span class="o">%&gt;%</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">drop_na</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#A nice set o&#39; colors</span>
+</span></span><span class="line"><span class="cl"><span class="n">scFill</span> <span class="o">=</span> <span class="nf">scale_color_manual</span><span class="p">(</span><span class="n">values</span> <span class="o">=</span> 
+</span></span><span class="line"><span class="cl">                              <span class="nf">c</span><span class="p">(</span><span class="s">&#34;#1B9E77&#34;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#DDC849&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#7570b3&#34;</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#a6761d&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#e7298a&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#1f78b4&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#a9a9a9&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                                <span class="s">&#34;#cc99ff&#34;</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plotout</span> <span class="o">=</span> <span class="nf">ggplot</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">out</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                 <span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">year</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                     <span class="n">y</span><span class="o">=</span><span class="n">prop</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="n">color</span> <span class="o">=</span> <span class="n">reltrad</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                     <span class="n">group</span> <span class="o">=</span> <span class="n">reltrad</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_ribbon</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">ymin</span> <span class="o">=</span> <span class="n">prop</span> <span class="o">-</span> <span class="m">1.96</span><span class="o">*</span><span class="n">prop_se</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">ymax</span> <span class="o">=</span> <span class="n">prop</span> <span class="o">+</span> <span class="m">1.96</span><span class="o">*</span><span class="n">prop_se</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">color</span> <span class="o">=</span> <span class="s">&#34;white&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">                  <span class="n">alpha</span> <span class="o">=</span> <span class="m">.2</span><span class="p">,</span> <span class="n">fill</span> <span class="o">=</span> <span class="s">&#34;grey&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_point</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">geom_line</span><span class="p">()</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ylab</span><span class="p">(</span><span class="s">&#34;Proportion of US Population Identifying As...&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">xlab</span><span class="p">(</span><span class="s">&#34;&#34;</span><span class="p">)</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">labs</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s">&#34;Religious Affiliation in the United States&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">subtitle</span> <span class="o">=</span> <span class="s">&#34;General Social Survey&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">caption</span> <span class="o">=</span> <span class="s">&#34;David Eagle / Data: https://gss.norc.org/&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">       <span class="n">color</span> <span class="o">=</span> <span class="s">&#34;Religious Tradition&#34;</span><span class="p">)</span><span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme_minimal</span><span class="p">()</span> <span class="o">+</span> <span class="n">scFill</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">theme</span><span class="p">(</span><span class="n">axis.text.x</span> <span class="o">=</span> <span class="nf">element_text</span><span class="p">(</span><span class="n">angle</span> <span class="o">=</span> <span class="m">70</span><span class="p">,</span> <span class="n">hjust</span> <span class="o">=</span> <span class="m">1</span><span class="p">))</span> <span class="o">+</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">ggtitle</span><span class="p">(</span><span class="s">&#34;Religious Affiliation in the United States 1972-2018&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#ggsave(plotout,&#34;Output/reltradGSS.png&#34;, width = 12, height=5, dpi=&#34;retina&#34;)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">plotout</span>
+</span></span></code></pre></div><img src="https://xenodochial-yonath-5a40d0.netlify.app/post/creating-reltrad/index.en_files/figure-html/unnamed-chunk-1-1.png" width="960" />
+<h2 id="references">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-sheltonBlackReltradMeasuring2017" class="csl-entry">
-Shelton, Jason E., and Ryon J. Cobb. 2017. <span>“Black <span>Reltrad</span>: <span>Measuring Religious Diversity</span> and <span>Commonality Among African Americans</span>.”</span> <em>Journal for the Scientific Study of Religion</em> 56 (4): 737–64. <a href="https://doi.org/gfgw25">https://doi.org/gfgw25</a>.
+<p>Shelton, Jason E., and Ryon J. Cobb. 2017. “Black Reltrad: Measuring Religious Diversity and Commonality Among African Americans.” <em>Journal for the Scientific Study of Religion</em> 56 (4): 737–64. <a href="https://doi.org/gfgw25" target="_blank" rel="noopener">https://doi.org/gfgw25</a>.</p>
 </div>
 <div id="ref-steenslandMeasureAmericanReligion2000" class="csl-entry">
-Steensland, B., L. D. Robinson, W. B. Wilcox, J. Z. Park, M. D. Regnerus, and R. D. Woodberry. 2000. <span>“The <span>Measure</span> of <span>American Religion</span>: <span>Toward Improving</span> the <span>State</span> of the <span>Art</span>.”</span> <em>Social Forces</em> 79 (1): 291–318. <a href="https://doi.org/db9hrh">https://doi.org/db9hrh</a>.
+<p>Steensland, B., L. D. Robinson, W. B. Wilcox, J. Z. Park, M. D. Regnerus, and R. D. Woodberry. 2000. “The Measure of American Religion: Toward Improving the State of the Art.” <em>Social Forces</em> 79 (1): 291–318. <a href="https://doi.org/db9hrh" target="_blank" rel="noopener">https://doi.org/db9hrh</a>.</p>
 </div>
 <div id="ref-stetzerReltradCodingProblems2016" class="csl-entry">
-Stetzer, Ed, and Ryan P. Burge. 2016. <span>“Reltrad <span>Coding Problems</span> and a <span>New Repository</span>.”</span> <em>Politics and Religion</em> 9 (01): 187–90. <a href="https://doi.org/gfkc5x">https://doi.org/gfkc5x</a>.
+<p>Stetzer, Ed, and Ryan P. Burge. 2016. “Reltrad Coding Problems and a New Repository.” <em>Politics and Religion</em> 9 (01): 187–90. <a href="https://doi.org/gfkc5x" target="_blank" rel="noopener">https://doi.org/gfkc5x</a>.</p>
 </div>
 <div id="ref-woodberryMeasureAmericanReligious2012" class="csl-entry">
-Woodberry, R. D., J. Z. Park, L. A. Kellstedt, M. D. Regnerus, and B. Steensland. 2012. <span>“The <span>Measure</span> of <span>American Religious Traditions</span>: <span>Theoretical</span> and <span>Measurement Considerations</span>.”</span> <em>Social Forces</em> 91 (1): 65–73. <a href="https://doi.org/10.1093/sf/sos121">https://doi.org/10.1093/sf/sos121</a>.
-</div>
+<p>Woodberry, R. D., J. Z. Park, L. A. Kellstedt, M. D. Regnerus, and B. Steensland. 2012. “The Measure of American Religious Traditions: Theoretical and Measurement Considerations.” <em>Social Forces</em> 91 (1): 65–73. <a href="https://doi.org/10.1093/sf/sos121" target="_blank" rel="noopener">https://doi.org/10.1093/sf/sos121</a>.</p>
 </div>
 </div>
 
