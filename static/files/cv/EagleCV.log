@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  6 SEP 2023 23:15
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.4.8)  18 SEP 2023 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -692,7 +692,7 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 ) (./publications.tex [1
 
 ]
-Overfull \hbox (15.31409pt too wide) in paragraph at lines 24--25
+Overfull \hbox (15.31409pt too wide) in paragraph at lines 26--27
 \TU/Garamond3LTStd(0)/m/n/12 Clergy.” \TU/Garamond3LTStd(0)/m/it/12 Review of R
 eligious Research\TU/Garamond3LTStd(0)/m/n/12 . 64:1005–1006. [][]$[][][][][] [
 ][][] [][] [] [][][][] [] [][][][] [] []$[][]10.1007/s13644-
@@ -778,6 +778,6 @@ Here is how much of TeX's memory you used:
  34750 multiletter control sequences out of 15000+600000
  472964 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,14n,100p,989b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,14n,100p,989b,526s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on EagleCV.pdf (14 pages).
