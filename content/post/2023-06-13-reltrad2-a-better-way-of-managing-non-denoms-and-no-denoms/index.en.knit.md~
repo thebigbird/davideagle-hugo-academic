@@ -1,0 +1,29 @@
+---
+title: 'RELTRAD2: a better way of managing non-denoms and no-denoms'
+author: David Eagle
+date: '2023-06-13'
+slug: reltrad2-a-better-way-of-managing-non-denoms-and-no-denoms
+categories:
+  - Measuring religion
+  - R
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2023-06-13T14:42:25-04:00'
+featured: no
+bibliography: ../../deeLibrary.bib
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Joshua Gaghan and I have just finished a manuscript where we outline an improved way to assign people in the General Social Survey who have either no-denomination or are non-denominational. In this post, I share this new approach and plot the trend in the GSS over time using classic RELTRAD and our new, improved version.
+
+Using the General Social Survey, people can be categorized into broad religious families based on the denomination/religious group with which they identify. The problem with this approach is that some people state they are non-denominational, some that they don't know/have a denomination and others that they are interdenominational. Under the older reltrad taxonomy \[\\\@steenslandMeasureAmericanReligion2000\].
+
+
+
+

@@ -27,7 +27,7 @@ content:
 
   # Contact details (edit or remove options as required)
   email: david.eagle@duke.edu
-  phone: 919-699-6321
+  phone: 
   address:
     street: 310 Trent Drive
     city: Durham
