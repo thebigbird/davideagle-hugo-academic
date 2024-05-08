@@ -1,13 +1,13 @@
 author: David Eagle
-date: '2024-03-08'
+date: '2024-05-04'
 # Configuration of Hugo
 # Guide: https://wowchemy.com/docs/getting-started/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: David Eagle # Website name
 baseurl: 'https://xenodochial-yonath-5a40d0.netlify.app/' # Website URL
-copyright: '©2022 David Eagle' # Footer text, e.g. '© {year} Me'
+copyright: '©2024 David Eagle' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
