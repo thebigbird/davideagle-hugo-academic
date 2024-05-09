@@ -2,11 +2,15 @@
 # Display name
 title: David E. Eagle, Ph.D.
 
+#Full name for SEO
+first name: David
+last name: Eagle
+
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Assistant Research Professor
+role: Assistant Research Professor of Global Health and Sociology
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -79,7 +83,7 @@ social:
 highlight_name: false
 ---
 
-I am an Assistant Research Professor of [Global Health](http://globalhealth.duke.edu) and [Sociology](http://sociology.duke.edu) and a faculty affiliate at the [Center for Health Policy and Inequalities Research](http://www.chpir.org). In partnership with [Duke Divinity School](http://divinity.duke.edu), [Rae Jean Proeschold-Bell](https://globalhealth.duke.edu/people/proeschold-bell-rae-jean) and I help lead the [Duke Clergy Health Initiative](https://divinity.duke.edu/initiatives/clergy-health-initiative), a world leader in researching and designing interventions for pastors and religious leaders.
+I am an Assistant Research Professor of [Global Health](http://globalhealth.duke.edu) and [Sociology](http://sociology.duke.edu). I lead the Religion and Social Change Lab (RaSCL) [RaSCL](http://https://clergyreligionresearch.duke.edu/religion-social-change-lab-rascl/). RaSCL is a team of researchers and practitioners who use the tools of social science to deepen understanding, spark conversations, and develop resources for the training and formation of faith leaders and their communities. We work collaboratively with the [Duke Clergy Health Initiative (CHI)](https://clergyreligionresearch.duke.edu/clergy-health-initiative-chi/) to promote clergy well-being across the lifecycle and shifting cultural landscapes.
 
 I am an expert on the health of religious clergy, the changing role of churches in North American society and the implications of these trends for the professional training of ministers. I have done significant work on burnout, depression and social support. A major strand of my research explores how structural racism impacts the experience of Black clergy.
 
