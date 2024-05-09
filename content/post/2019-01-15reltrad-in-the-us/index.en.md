@@ -17,12 +17,12 @@ image:
 
 Religious affliation has changed significantly in the United States since 1972. In this example, I plot the change in religious affiliation over time using data from the 1972–2018 [General Social Survey](https://gss.norc.org/get-the-data).
 
-I have code on [Github](https://github.com/thebigbird/reltrad) that recodes the GSS into the standard RELTRAD categories that are frequently used by sociologist of religion. This code shows how to use ggplot to create a plot of the trends over time. @steenslandMeasureAmericanReligion2000.
+I have code on [Github](https://github.com/thebigbird/R-eltrad2) that recodes the GSS into the standard RELTRAD categories that are frequently used by sociologist of religion. This code shows how to use ggplot to create a plot of the trends over time. @steenslandMeasureAmericanReligion2000.
 
 ``` r
 #Create a Figure for GSS attendance over time
 #Plot the proportions over time
-source("https://raw.githubusercontent.com/thebigbird/R_Stata_Reltrad/master/ReltradGSS.R")
+source("https://github.com/thebigbird/R-eltrad2/blob/master/ReltradGSS.R")
 #See my github for the code to make these data
 
 #Cut by generation

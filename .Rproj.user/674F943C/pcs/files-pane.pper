@@ -2,12 +2,12 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": true
+            "ascending": false
         },
         {
             "columnIndex": 4,
             "ascending": true
         }
     ],
-    "path": "~/Library/CloudStorage/Box-Box/Projects/davideagle-hugo-academic/content/authors/admin"
+    "path": "~/Library/CloudStorage/Box-Box/Projects/davideagle-hugo-academic/content/publication/smith-prospective-associations-depressive-2017"
 }
