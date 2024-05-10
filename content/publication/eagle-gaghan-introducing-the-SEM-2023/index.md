@@ -38,7 +38,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.tandfonline.com/doi/epdf/10.1080/00344087.2023.2199240
+url_pdf:"Eagle et al. - 2023 - Introducing the Seminary to Early Ministry Study.pdf"
 url_code:
 url_dataset:
 url_poster:
