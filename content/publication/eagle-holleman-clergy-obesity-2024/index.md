@@ -8,7 +8,7 @@ authors:
 - Brianda Barerra Olvera
 - Elizabeth Blackwood
 date: 2024
-doi: 10.1111/obr.13741
+doi: "10.1111/obr.13741"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2024
@@ -71,5 +71,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
+#   slides: ""
 ---
