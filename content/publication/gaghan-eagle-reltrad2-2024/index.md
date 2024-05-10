@@ -3,10 +3,10 @@
 
 title: "RELTRAD2: Refining the State of the Art of Religious Classification by Reconsidering the Categorization of Nondenominational Respondents"
 authors:
-- Anna Holleman
+- Joshua Gaghan
 - David Eagle
-date: 2023-05-23
-doi: "10.1111/jssr.12859"
+date: 2024-05-01
+doi: "10.1111/jssr.12916"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-23
@@ -21,7 +21,7 @@ publication_types: ["2"]
 publication: "*Journal for the Scientific Study of Religion*"
 publication_short: ""
 
-abstract: "Are religious leaders unusually unhealthy? This question has long occupied scholars interested in the study of religious institutions, and a significant body of research has examined the causes, correlates, and effects of poor health among clergy. In this study, we aimed to: (1) outline the development of, and bias inherent to, the scholarly understanding of clergy health over the past 50 years; (2) test, using a recently collected nationally representative sample of clergy, the standing assumption that clergy are an especially unhealthy vocational group, specifically in terms of depression, obesity, and self-rated health; and (3) identify the major correlates of health among clergy using these data. Contrary to the recent tenor of scholarly research on this subject, our research revealed that clergy are not a particularly unhealthy group. We suggest potential pathways forward to ameliorate the bias inherent in the research into clergy well-being."
+abstract: "RELTRAD is a major religious taxonomy used by a large number of researchers. Although criticisms have been raised about its utility, improving the algorithm to capture contemporary religious dynamics is important given its widespread use. The present RELTRAD taxonomy classifies more religiously active nondenominational respondents as Conservative Protestants and codes the remainder as missing data. A growing number of Americans indicate they are either nondenominational or only Christian or Protestant, which means using RELTRAD in its existing form codes a nonrandom and increasingly large number of respondents with a missing value for religious affiliation (growing from 2 percent to 5 percent of the US General Social Survey (GSS) sample between 2000 and 2018). Using a machine learning algorithm to predict the likely religious tradition of nondenominational respondents, we demonstrate the shortcomings of this approach and introduce a new coding scheme, RELTRAD2, which classifies nondenominational respondents who report a Black racial identity as Black Protestant, non-Black respondents who never attend religious services as Mainline Protestant, and the remainder as Conservative Protestant. Code to derive RELTRAD2 from the GSS is provided."
 
 # Summary. An optional shortened abstract.
 summary: ""
