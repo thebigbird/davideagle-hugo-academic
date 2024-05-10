@@ -5,11 +5,12 @@ title: "Introducing the Seminary to Early Ministry Study"
 authors:
 - David E. Eagle
 - Anna Holleman
+- Brianda Barrera Olvera
 date: 2024-05-10
 doi: "10.1080/00344087.2023.2199240"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-05-05T16:54:14-04:00
+publishDate: 2024-05-10
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
