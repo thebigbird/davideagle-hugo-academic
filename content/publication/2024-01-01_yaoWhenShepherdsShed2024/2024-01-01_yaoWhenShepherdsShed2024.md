@@ -11,7 +11,6 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url = "http://link.springer.com/10.1007/s10943-023-01910-8"
 url_pdf = ""
 url_preprint = ""
 url_code = ""
