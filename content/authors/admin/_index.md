@@ -93,4 +93,4 @@ Methodologically, I am skilled in the collection and analysis of survey data, in
 
 My research is published in the American Journal of Sociology, the Journal of Religion and Health, the Journal of Social and Personal Relationships, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, and the Review of Religious Research.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv/EagleCV.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv/EagleCV.pdf" "newtab" >}}C.V. here{{< /staticref >}}.
