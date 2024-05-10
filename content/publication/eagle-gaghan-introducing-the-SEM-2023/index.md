@@ -1,43 +1,23 @@
----
-# Documentation: https://wowchemy.com/docs/managing-content/
-
++++
 title: "Introducing the Seminary to Early Ministry Study"
 authors:
 - David E. Eagle
 - Joshua Gaghan
 date: 2023-05-05T16:54:14-04:00
 doi: "10.1080/00344087.2023.2199240"
-
-# Schedule page publish date (NOT publication's date).
 publishDate: 2023-05-05T16:54:14-04:00
-
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
 publication_types: ["2"]
-
-# Publication name and optional abbreviated publication name.
 publication: "*Religious Education*"
 publication_short: ""
-
-abstract: ""
-
-# Summary. An optional shortened abstract.
+abstract: "The Seminary to Early Ministry (SEM) Study is a mixed-method, prospective study designed to provide high-quality empirical data on student formation in theological education. The study will use a series of surveys and in-depth interviews to track three cohorts of divinity school students from matriculation into the early years of their careers. As a result, the study hopes to compile the most comprehensive longitudinal dataset on theological education to date, enabling researchers to better understand who attends seminaries, how seminaries form students, and how the training of future religious leaders can be improved."
 summary: ""
-
 tags: []
 categories: []
 featured: false
-
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
-
 url_pdf:"Eagle et al. - 2023 - Introducing the Seminary to Early Ministry Study.pdf"
 url_code:
 url_dataset:
@@ -46,26 +26,9 @@ url_project:
 url_slides:
 url_source:
 url_video:
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: ""
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
 projects: []
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: ""
----
++++
