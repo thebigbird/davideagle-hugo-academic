@@ -11,15 +11,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
+url_pdf = "2024-01-01_yaoWhenShepherdsShed2024.pdf"
 math = true
 highlight = true
 [header]
