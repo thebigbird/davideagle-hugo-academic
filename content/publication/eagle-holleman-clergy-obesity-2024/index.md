@@ -1,4 +1,6 @@
-___
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
 title: "Prevalence of obesity in religious clergy in the United States: A systematic review and meta-analysis"
 authors:
 - David Eagle
