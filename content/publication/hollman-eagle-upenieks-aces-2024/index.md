@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: Adverse Childhood Experiences Among Seminarians: Personal Experiences of Trauma and Implications for Pastoral Well-Being and Ministerial Training
+title: "Adverse Childhood Experiences Among Seminarians: Personal Experiences of Trauma and Implications for Pastoral Well-Being and Ministerial Training"
 subtitle: ''
 summary: ''
 authors:
