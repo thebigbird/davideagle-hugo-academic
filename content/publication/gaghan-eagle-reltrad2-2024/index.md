@@ -9,7 +9,7 @@ date: 2024-05-01
 doi: "10.1111/jssr.12916"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-05-23
+publishDate: 2024-05-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -27,10 +27,9 @@ abstract: "RELTRAD is a major religious taxonomy used by a large number of resea
 summary: ""
 
 tags:
-- clergy
-- depressive symptoms
-- self-rated health
+- United States
 - obesity
+- clergy
 categories: []
 featured: true
 
