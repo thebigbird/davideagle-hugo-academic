@@ -1,6 +1,3 @@
----
-
-
 title: "Prevalence of obesity in religious clergy in the United States: A systematic review and meta-analysis"
 authors:
 - David Eagle
