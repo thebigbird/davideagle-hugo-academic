@@ -1,17 +1,15 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Prevalence of obesity in religious clergy in the United States: A systematic review and meta-analysis"
+title: "Introducing the Seminary to Early Ministry Study"
 authors:
-- David Eagle
-- Anna Holleman
-- Brianda Barerra Olvera
-- Elizabeth Blackwood
-date: 2024
-doi: "10.1111/obr.13741"
+- David E. Eagle
+- Joshua Gaghan
+date: 2023-05-05T16:54:14-04:00
+doi: "10.1080/00344087.2023.2199240"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024
+publishDate: 2023-05-05T16:54:14-04:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,19 +18,17 @@ publishDate: 2024
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: *Obesity Reviews*
-abstract: "Objective: This systematic review aims to summarize the current body of evidence concerning the prevalence of obesity among clergy (i.e., the officially designated leaders of a religious group) in the United States. Method: From November 2022 to February 2023, five databases, one data repository, and gray matter were searched for articles and data sources. The search was restricted to articles published or raw data collected from 2001 to 2021. Study quality was assessed with a template, and heterogeneity was assessed using the I2\$\$ {I}^2 \$\$ statistic. The protocol for this review was registered with PROSPERO (CRD42022376592). Results: Forty-seven studies of clergy obesity involving 35,064 individuals were eligible. The pooled prevalence estimate of obesity across studies was 34.8% (95% confidence interval [CI]: 32.5–37.2). Obesity prevalence was found to be increasing over time and to vary considerably between clergy from different religious traditions. Compared to national estimates, from 2005 onwards, obesity prevalence was higher than in the US adult population."
+publication: "*Religious Education*"
+publication_short: ""
+
+abstract: ""
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags:
-- clergy
-- depressive symptoms
-- self-rated health
-- obesity
+tags: []
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -42,7 +38,7 @@ featured: true
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://www.tandfonline.com/doi/epdf/10.1080/00344087.2023.2199240
 url_code:
 url_dataset:
 url_poster:
@@ -71,5 +67,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-#   slides: ""
+slides: ""
 ---
