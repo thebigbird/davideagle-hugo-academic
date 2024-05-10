@@ -1,15 +1,17 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Is There a Crisis in Clergy Health?: Reorienting Research Using a National Sample"
+title: "Prevalence of obesity in religious clergy in the United States: A systematic review and meta-analysis"
 authors:
-- Anna Holleman
 - David Eagle
-date: 2023-05-23
-doi: "10.1111/jssr.12859"
+- Anna Holleman
+- Brianda Barerra Olvera
+- Elizabeth Blackwood
+date: 2024
+doi: "10.1111/obr.13741"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-05-23
+publishDate: 2024
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -18,10 +20,10 @@ publishDate: 2023-05-23
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal for the Scientific Study of Religion*"
+publication: "*Obesity Reviews*"
 publication_short: ""
 
-abstract: "Are religious leaders unusually unhealthy? This question has long occupied scholars interested in the study of religious institutions, and a significant body of research has examined the causes, correlates, and effects of poor health among clergy. In this study, we aimed to: (1) outline the development of, and bias inherent to, the scholarly understanding of clergy health over the past 50 years; (2) test, using a recently collected nationally representative sample of clergy, the standing assumption that clergy are an especially unhealthy vocational group, specifically in terms of depression, obesity, and self-rated health; and (3) identify the major correlates of health among clergy using these data. Contrary to the recent tenor of scholarly research on this subject, our research revealed that clergy are not a particularly unhealthy group. We suggest potential pathways forward to ameliorate the bias inherent in the research into clergy well-being."
+abstract: "**Objective:** This systematic review aims to summarize the current body of evidence concerning the prevalence of obesity among clergy (i.e., the officially designated leaders of a religious group) in the United States. **Method:** From November 2022 to February 2023, five databases, one data repository, and gray matter were searched for articles and data sources. The search was restricted to articles published or raw data collected from 2001 to 2021. Study quality was assessed with a template, and heterogeneity was assessed using the I2\$\$ {I}^2 \$\$ statistic. The protocol for this review was registered with PROSPERO (CRD42022376592). **Results:** Forty-seven studies of clergy obesity involving 35,064 individuals were eligible. The pooled prevalence estimate of obesity across studies was 34.8\% (95\% confidence interval [CI]: 32.5–37.2). Obesity prevalence was found to be increasing over time and to vary considerably between clergy from different religious traditions. Compared to national estimates, from 2005 onwards, obesity prevalence was higher than in the US adult population."
 
 # Summary. An optional shortened abstract.
 summary: ""
