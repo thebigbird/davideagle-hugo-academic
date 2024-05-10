@@ -1,8 +1,6 @@
 +++
 title: "Introducing the Seminary to Early Ministry Study"
-authors:
-- David E. Eagle
-- Joshua Gaghan
+authors:["David E. Eagle", "Joshua Gaghan"]
 date: 2023-05-05T16:54:14-04:00
 doi: "10.1080/00344087.2023.2199240"
 publishDate: 2023-05-05T16:54:14-04:00
