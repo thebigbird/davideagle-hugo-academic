@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Introducing the Seminary to Early Ministry Study"
+title: "Prevalence of obesity in religious clergy in the United States: A systematic review and meta-analysis."
 authors:
 - David E. Eagle
 - Anna Holleman
