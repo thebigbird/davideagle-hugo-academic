@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  7 FEB 2025 14:37
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  11 FEB 2025 11:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -710,11 +710,11 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 35.
  [2]
-Overfull \hbox (15.31409pt too wide) in paragraph at lines 37--38
+Overfull \hbox (15.31409pt too wide) in paragraph at lines 39--40
 \TU/Garamond3LTStd(0)/m/n/12 Clergy.” \TU/Garamond3LTStd(0)/m/it/12 Review of R
 eligious Research\TU/Garamond3LTStd(0)/m/n/12 . 64:1005–1006. [][]$[][][][][] [
 ][][] [][] [] [][][][] [] [][][][] [] []$[][]10.1007/s13644-
@@ -781,7 +781,7 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 Here is how much of TeX's memory you used:
  14244 strings out of 474773
  275380 string characters out of 5757725
- 1975839 words of memory out of 5000000
+ 1976839 words of memory out of 5000000
  36153 multiletter control sequences out of 15000+600000
  561774 words of font info for 84 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
