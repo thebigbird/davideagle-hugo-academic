@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  1 DEC 2025 09:43
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  9 FEB 2026 09:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -40,6 +40,15 @@ Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 3 replaced by U+FFFD.
 Package: anyfontsize 2007/11/22 anyfontsize.sty by pts
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+
+(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
 (/usr/local/texlive/2024/texmf-dist/tex/generic/soul/soul.sty
 Package: soul 2023-06-14 v3.1 Permit use of UTF-8 characters in soul (HO)
 
@@ -65,9 +74,6 @@ Package: soul-ori 2023-06-14 v3.1 letterspacing/underlining (mf)
 \SOUL@ttwidth=\dimen152
 \SOUL@uldp=\dimen153
 \SOUL@ulht=\dimen154
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 (/usr/local/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
@@ -258,9 +264,6 @@ Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -277,9 +280,6 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
 (/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
@@ -715,9 +715,9 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
+(Font)              <5> on input line 37.
  [2] [3] [4] [5] [6]) (./grants.tex
 Overfull \hbox (45.3209pt too wide) in alignment at lines 2--60
  [] [] 
@@ -733,12 +733,12 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 4--12
 [][] 
  []
 
-
+[8]
 Overfull \hbox (12.0pt too wide) in paragraph at lines 15--22
 [][] 
  []
 
-[8]) (./talks.tex
+) (./talks.tex
 Overfull \hbox (12.0pt too wide) in paragraph at lines 31--1
 [][]
  []
@@ -749,17 +749,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--1
  []
 
 
-Overfull \hbox (2.68556pt too wide) in alignment at lines 3--11
+Overfull \hbox (2.68556pt too wide) in alignment at lines 3--13
  [] [] 
  []
 
-
-Overfull \hbox (2.68556pt too wide) in alignment at lines 14--127
+[9]
+Overfull \hbox (2.68556pt too wide) in alignment at lines 16--130
  [] [] 
  []
 
-[9] [10] [11] [12]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 130--144
+[10] [11] [12]
+Overfull \hbox (2.68556pt too wide) in alignment at lines 133--149
  [] [] 
  []
 
@@ -778,7 +778,7 @@ Overfull \hbox (2.68556pt too wide) in paragraph at lines 12--21
 [][] 
  []
 
-) [14] (./EagleCV.aux)
+) [14] [15] (./EagleCV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -789,10 +789,10 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 Here is how much of TeX's memory you used:
  14243 strings out of 474773
  275169 string characters out of 5757725
- 1972839 words of memory out of 5000000
+ 1974839 words of memory out of 5000000
  36154 multiletter control sequences out of 15000+600000
  561758 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,14n,102p,990b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,102p,990b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on EagleCV.pdf (14 pages).
+Output written on EagleCV.pdf (15 pages).
