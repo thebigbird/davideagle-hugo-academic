@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  9 FEB 2026 09:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  13 FEB 2026 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,12 +718,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 37.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
- [2] [3] [4] [5] [6]) (./grants.tex
+ [2] [3] [4] [5] [6] [7]) (./grants.tex
 Overfull \hbox (45.3209pt too wide) in alignment at lines 2--60
  [] [] 
  []
 
-[7]
+
 Overfull \hbox (45.3209pt too wide) in alignment at lines 63--76
  [] [] 
  []
