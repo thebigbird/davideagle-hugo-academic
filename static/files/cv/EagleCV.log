@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  4 MAR 2026 11:00
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  4 MAR 2026 11:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -697,12 +697,12 @@ $[]$ $[]$
  []
 
 (./employment.tex
-Overfull \hbox (0.51797pt too wide) in alignment at lines 3--21
+Overfull \hbox (0.51797pt too wide) in alignment at lines 3--15
  [] [] 
  []
 
 
-Overfull \hbox (5.21294pt too wide) in alignment at lines 24--28
+Overfull \hbox (5.21294pt too wide) in alignment at lines 18--22
  [] [] 
  []
 
@@ -715,9 +715,9 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 42.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 42.
+(Font)              <5> on input line 44.
  [2]
 Overfull \hbox (1.94514pt too wide) in paragraph at lines 65--66
 []\TU/Garamond3LTStd(0)/m/n/12 Tice, L.C., \TU/Garamond3LTStd(0)/b/n/12 Eagle, 
@@ -744,32 +744,12 @@ Overfull \hbox (0.51797pt too wide) in alignment at lines 2--36
  [] [] 
  []
 
-[7]
+
 Overfull \hbox (0.51797pt too wide) in alignment at lines 39--46
  [] [] 
  []
 
-) (./teaching.tex
-Overfull \hbox (12.0pt too wide) in paragraph at lines 2--12
-[] 
- []
-
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 14--23
-[] 
- []
-
-) (./talks.tex
-Overfull \hbox (12.0pt too wide) in paragraph at lines 29--1
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 29--1
-
- []
-
-[8]
+[7]) (./teaching.tex [8]) (./talks.tex
 Overfull \hbox (0.51797pt too wide) in alignment at lines 2--12
  [] [] 
  []
@@ -784,12 +764,12 @@ Overfull \hbox (0.51797pt too wide) in alignment at lines 132--148
  [] [] 
  []
 
-[12]) (./awards.tex
+) (./awards.tex
 Overfull \hbox (47.48917pt too wide) in alignment at lines 3--24
  [] [] 
  []
 
-[13]) (./activities.tex
+[12]) (./activities.tex
 Overfull \hbox (47.48917pt too wide) in paragraph at lines 5--14
 [][] 
  []
@@ -799,7 +779,7 @@ Overfull \hbox (0.51797pt too wide) in paragraph at lines 16--20
 [][] 
  []
 
-) [14] (./EagleCV.aux)
+) [13] (./EagleCV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -808,12 +788,12 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14239 strings out of 474773
- 274954 string characters out of 5757725
- 1977839 words of memory out of 5000000
- 36152 multiletter control sequences out of 15000+600000
+ 14242 strings out of 474773
+ 275035 string characters out of 5757725
+ 1974839 words of memory out of 5000000
+ 36155 multiletter control sequences out of 15000+600000
  561742 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,14n,102p,990b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,102p,990b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on EagleCV.pdf (14 pages).
+Output written on EagleCV.pdf (13 pages).
