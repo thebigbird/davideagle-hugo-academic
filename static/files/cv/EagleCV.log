@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  13 FEB 2026 10:28
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  4 MAR 2026 11:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,14 +580,14 @@ LaTeX Info: Redefining \BHBI on input line 130.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(93.95122pt, 426.39256pt, 93.95122pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
 * v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=426.39256pt
+* \textwidth=469.75502pt
 * \textheight=650.43001pt
-* \oddsidemargin=21.68123pt
-* \evensidemargin=21.68123pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -677,7 +677,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/Consolas(0)/b/n on input line 131.
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--153
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
@@ -697,12 +697,12 @@ $[]$ $[]$
  []
 
 (./employment.tex
-Overfull \hbox (6.94714pt too wide) in alignment at lines 3--24
+Overfull \hbox (0.51797pt too wide) in alignment at lines 3--21
  [] [] 
  []
 
 
-Overfull \hbox (6.94714pt too wide) in alignment at lines 27--31
+Overfull \hbox (5.21294pt too wide) in alignment at lines 24--28
  [] [] 
  []
 
@@ -715,70 +715,91 @@ Overfull \hbox (23.99998pt too wide) in alignment at lines 2--8
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
- [2] [3] [4] [5] [6] [7]) (./grants.tex
-Overfull \hbox (45.3209pt too wide) in alignment at lines 2--60
+(Font)              <5> on input line 42.
+ [2]
+Overfull \hbox (1.94514pt too wide) in paragraph at lines 65--66
+[]\TU/Garamond3LTStd(0)/m/n/12 Tice, L.C., \TU/Garamond3LTStd(0)/b/n/12 Eagle, 
+D.E.\TU/Garamond3LTStd(0)/m/n/12 , Rash, J.A., Larkins, J.S., Labrecque, S.M., 
+Platt, A., Yao, J., & Proeschold-
+ []
+
+[3]
+Overfull \hbox (0.51974pt too wide) in paragraph at lines 71--72
+[]\TU/Garamond3LTStd(0)/b/n/12 Eagle, D.E.\TU/Garamond3LTStd(0)/m/n/12 , Rash, 
+J., Tice, L., & Proeschold-Bell, R.J. (2021). “Evaluation of a Remote, Internet
+-
+ []
+
+[4] [5]
+Overfull \hbox (6.80237pt too wide) in paragraph at lines 141--142
+[]\TU/Garamond3LTStd(0)/b/n/12 Eagle, D.E. \TU/Garamond3LTStd(0)/m/n/12 (2019).
+ “The growth of the megachurch.” In Hunt, S.J. (Ed.), \TU/Garamond3LTStd(0)/m/i
+t/12 Handbook of Megachurches
+ []
+
+[6]) (./grants.tex
+Overfull \hbox (0.51797pt too wide) in alignment at lines 2--36
  [] [] 
  []
 
-
-Overfull \hbox (45.3209pt too wide) in alignment at lines 63--76
+[7]
+Overfull \hbox (0.51797pt too wide) in alignment at lines 39--46
  [] [] 
  []
 
 ) (./teaching.tex
-Overfull \hbox (12.0pt too wide) in paragraph at lines 4--12
-[][] 
+Overfull \hbox (12.0pt too wide) in paragraph at lines 2--12
+[] 
  []
 
-[8]
-Overfull \hbox (12.0pt too wide) in paragraph at lines 15--22
-[][] 
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 14--23
+[] 
  []
 
 ) (./talks.tex
-Overfull \hbox (12.0pt too wide) in paragraph at lines 31--1
+Overfull \hbox (12.0pt too wide) in paragraph at lines 29--1
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--1
+Underfull \hbox (badness 10000) in paragraph at lines 29--1
 
  []
 
-
-Overfull \hbox (2.68556pt too wide) in alignment at lines 3--13
+[8]
+Overfull \hbox (0.51797pt too wide) in alignment at lines 2--12
  [] [] 
  []
 
-[9]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 16--130
+
+Overfull \hbox (0.51797pt too wide) in alignment at lines 15--129
  [] [] 
  []
 
-[10] [11] [12]
-Overfull \hbox (2.68556pt too wide) in alignment at lines 133--149
+[9] [10] [11]
+Overfull \hbox (0.51797pt too wide) in alignment at lines 132--148
  [] [] 
  []
 
-) (./awards.tex
-Overfull \hbox (45.3209pt too wide) in alignment at lines 3--24
+[12]) (./awards.tex
+Overfull \hbox (47.48917pt too wide) in alignment at lines 3--24
  [] [] 
  []
 
 [13]) (./activities.tex
-Overfull \hbox (2.68556pt too wide) in paragraph at lines 5--9
+Overfull \hbox (47.48917pt too wide) in paragraph at lines 5--14
 [][] 
  []
 
 
-Overfull \hbox (2.68556pt too wide) in paragraph at lines 12--21
+Overfull \hbox (0.51797pt too wide) in paragraph at lines 16--20
 [][] 
  []
 
-) [14] [15] (./EagleCV.aux)
+) [14] (./EagleCV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -787,12 +808,12 @@ Package rerunfilecheck Info: File `EagleCV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 14243 strings out of 474773
- 275169 string characters out of 5757725
- 1974839 words of memory out of 5000000
- 36154 multiletter control sequences out of 15000+600000
- 561758 words of font info for 82 fonts, out of 8000000 for 9000
+ 14239 strings out of 474773
+ 274954 string characters out of 5757725
+ 1977839 words of memory out of 5000000
+ 36152 multiletter control sequences out of 15000+600000
+ 561742 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,14n,102p,990b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,102p,990b,545s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on EagleCV.pdf (15 pages).
+Output written on EagleCV.pdf (14 pages).
