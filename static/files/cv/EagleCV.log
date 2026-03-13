@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  4 MAR 2026 11:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.1)  13 MAR 2026 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,6 +750,10 @@ Overfull \hbox (0.51797pt too wide) in alignment at lines 39--46
  []
 
 [7]) (./teaching.tex [8]) (./talks.tex
+
+Package hyperref Warning: Suppressing empty link on input line 3.
+
+
 Overfull \hbox (0.51797pt too wide) in alignment at lines 2--12
  [] [] 
  []
@@ -760,22 +764,22 @@ Overfull \hbox (0.51797pt too wide) in alignment at lines 15--129
  []
 
 [9] [10] [11]
-Overfull \hbox (0.51797pt too wide) in alignment at lines 132--148
+Overfull \hbox (0.51797pt too wide) in alignment at lines 132--151
  [] [] 
  []
 
-) (./awards.tex
+[12]) (./awards.tex
 Overfull \hbox (47.48917pt too wide) in alignment at lines 3--24
  [] [] 
  []
 
-[12]) (./activities.tex
-Overfull \hbox (47.48917pt too wide) in paragraph at lines 5--14
+) (./activities.tex
+Overfull \hbox (47.48917pt too wide) in paragraph at lines 5--15
 [][] 
  []
 
 
-Overfull \hbox (0.51797pt too wide) in paragraph at lines 16--20
+Overfull \hbox (0.51797pt too wide) in paragraph at lines 17--21
 [][] 
  []
 
@@ -794,6 +798,6 @@ Here is how much of TeX's memory you used:
  36155 multiletter control sequences out of 15000+600000
  561742 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,14n,102p,990b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,14n,102p,990b,551s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on EagleCV.pdf (13 pages).
