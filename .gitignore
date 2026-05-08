@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# RStudio project files (kept top-level .Rproj is fine)
+.Rproj.user/
+
+# Hugo build output and cache
+public/
+resources/_gen/
+.hugo_build.lock
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
