@@ -13,7 +13,7 @@ summary: ""
 tags: []
 categories: []
 featured: false
-url_pdf:
+url_pdf: upenieks-eagle-rs-struggles-seminary-2026.pdf
 url_code:
 url_dataset:
 url_poster:
