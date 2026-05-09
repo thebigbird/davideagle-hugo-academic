@@ -24,6 +24,7 @@ content:
     category: ""
     publication_type: ""
     tag: ""
+    featured_only: true
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
