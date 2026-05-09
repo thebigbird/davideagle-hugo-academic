@@ -10,26 +10,26 @@ last name: Eagle
 superuser: true
 
 # Role/position/tagline
-role: Assistant Research Professor of Global Health and Sociology
+role: Associate Research Professor of Global Health and Sociology
 
 # Organizations/Affiliations to show in About widget
 organizations:
+- name: Duke Clergy Health Collaborative
+  url: https://clergyhealth.duke.edu/
 - name: Duke Global Health Institute
   url: https://globalhealth.duke.edu/
-- name: Department of Sociology
+- name: Department of Sociology, Duke University
   url: https://sociology.duke.edu/
-- name: Duke University
-  url: https://www.duke.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include the sociology of religion, theological education, and racial inequality.
+bio: My research interests include the sociology of religion, work and professions, and mental health, with a long-running focus on clergy health and well-being.
 
 # Interests to show in About widget
 interests:
-- Theological Education
-- Clergy Health and Wellbeing
-- The Social Organization of North American Religion
-- Racial Inequality in Religious Organizations
+- Sociology of Religion
+- Clergy Health and Well-being
+- Mental Health
+- Sociology of Work and Professions
 - Quantitative Research Methods
 
 # Education to show in About widget
@@ -59,9 +59,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:david.eagle@duke.edu'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/davideaglephd
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.co.uk/citations?user=lXnqAUUAAAAJ&hl=en&oi=ao
@@ -71,10 +68,6 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/deeagle
-
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
 - icon: cv
   icon_pack: ai
   link: files/cv/EagleCV.pdf
@@ -83,14 +76,10 @@ social:
 highlight_name: false
 ---
 
-I am an Assistant Research Professor of [Global Health](http://globalhealth.duke.edu) and [Sociology](http://sociology.duke.edu). I lead the Religion and Social Change Lab (RaSCL) [RaSCL](http://https://clergyreligionresearch.duke.edu/religion-social-change-lab-rascl/). RaSCL is a team of researchers and practitioners who use the tools of social science to deepen understanding, spark conversations, and develop resources for the training and formation of faith leaders and their communities. We work collaboratively with the [Duke Clergy Health Initiative (CHI)](https://clergyreligionresearch.duke.edu/clergy-health-initiative-chi/) to promote clergy well-being across the lifecycle and shifting cultural landscapes.
+I am Associate Research Professor of [Global Health](https://globalhealth.duke.edu) and [Sociology](https://sociology.duke.edu) at Duke University. I serve as Research Director for the [Duke Clergy Health Collaborative](https://clergyhealth.duke.edu/) and as Editor-in-Chief of the *[Journal for the Scientific Study of Religion](https://onlinelibrary.wiley.com/journal/14685906#)*.
 
-I am an expert on the health of religious clergy, the changing role of churches in North American society and the implications of these trends for the professional training of ministers. I have done significant work on burnout, depression and social support. A major strand of my research explores how structural racism impacts the experience of Black clergy.
+My research sits at the intersection of the sociology of religion, the sociology of work and professions, and mental health. A long-running thread examines clergy health and well-being: how the work of religious leadership shapes mental and physical health, the role of social support, and how structural racism shapes the experience of Black clergy in predominantly white denominations. Recent work designs and tests interventions to reduce clergy stress and depression, extends these questions to religious leaders in the Democratic Republic of the Congo and Tanzania, and takes up broader patterns of religious change, including denominational schism and the role of peer networks in shaping belief.
 
-I am Principal Investigator of [The Seminary to Early Ministry Study](http://semstudy.org), a multi-year, multi-cohort study seeking to understand how seminary impacts the health, occupational wellbeing, theology, and career trajectories of students.
-
-Methodologically, I am skilled in the collection and analysis of survey data, including longitudinal and social network data.
-
-My research is published in the American Journal of Sociology, the Journal of Religion and Health, the Journal of Social and Personal Relationships, Social Networks, the Journal of Social History, the Journal for the Scientific Study of Religion, and the Review of Religious Research.
+Methodologically, I work with longitudinal, social network, and complex survey data. My research has been published in the *American Journal of Sociology*, *Journal for the Scientific Study of Religion*, *Sociology of Religion*, *Pastoral Psychology*, *Mental Health, Religion & Culture*, *Journal of Religion and Health*, *Review of Religious Research*, and *Obesity Reviews*, among others.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "files/cv/EagleCV.pdf" "newtab" >}}C.V. here{{< /staticref >}}.

@@ -6,8 +6,9 @@ authors:
 - David E. Eagle
 - Anna Holleman
 - Brianda Barrera Olvera
+- Ellen Blackwood
 date: 2024-05-10
-doi: "10.1080/00344087.2023.2199240"
+doi: "10.1111/obr.13741"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2024-05-10
@@ -39,7 +40,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: https://www.tandfonline.com/doi/epdf/10.1080/00344087.2023.2199240
+url_pdf: eagle-holleman-clergy-obesity-2024.pdf
 url_code:
 url_dataset:
 url_poster:

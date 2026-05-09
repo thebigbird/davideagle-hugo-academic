@@ -11,7 +11,7 @@ image_preview = ""
 selected = false
 projects = []
 tags = []
-url_pdf = ""
+url_pdf = "biru-gap-mental-health-2023.pdf"
 url_preprint = ""
 url_code = ""
 url_dataset = ""
@@ -25,5 +25,4 @@ highlight = true
 [header]
 image = ""
 caption = ""
-file = "biru-gap-mental-health-2023.pdf"
 +++

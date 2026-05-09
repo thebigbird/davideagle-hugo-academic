@@ -2,7 +2,7 @@
 # An instance of the Featured widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featured
-active: false
+active: true
 
 # This file represents a page section.
 headless: true
@@ -24,6 +24,7 @@ content:
     category: ""
     publication_type: ""
     tag: ""
+    featured_only: true
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 

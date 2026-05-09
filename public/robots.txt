@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://xenodochial-yonath-5a40d0.netlify.app/sitemap.xml
