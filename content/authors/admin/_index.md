@@ -15,7 +15,7 @@ role: Associate Research Professor of Global Health and Sociology
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: Duke Clergy Health Collaborative
-  url: https://clergyreligionresearch.duke.edu/
+  url: https://clergyhealth.duke.edu/
 - name: Duke Global Health Institute
   url: https://globalhealth.duke.edu/
 - name: Department of Sociology, Duke University
@@ -76,11 +76,9 @@ social:
 highlight_name: false
 ---
 
-I am Associate Research Professor of [Global Health](https://globalhealth.duke.edu) and [Sociology](https://sociology.duke.edu) at Duke University. I serve as Research Director for the Duke Clergy Health Collaborative and as Editor-in-Chief of the *Journal for the Scientific Study of Religion*.
+I am Associate Research Professor of [Global Health](https://globalhealth.duke.edu) and [Sociology](https://sociology.duke.edu) at Duke University. I serve as Research Director for the [Duke Clergy Health Collaborative](https://clergyhealth.duke.edu/) and as Editor-in-Chief of the *[Journal for the Scientific Study of Religion](https://onlinelibrary.wiley.com/journal/14685906#)*.
 
-My research sits at the intersection of the sociology of religion, the sociology of work and professions, and mental health. A long-running thread in my work examines clergy health and well-being: how the work of religious leadership shapes mental and physical health, the role of social support, and how structural racism shapes the experience of Black clergy in predominantly white denominations. I also study the changing role of religious organizations in North American society and what those shifts mean for the formation and training of religious leaders.
-
-I am Principal Investigator of [The Seminary to Early Ministry Study](https://semstudy.org), a multi-year, multi-cohort study of how seminary shapes the health, occupational well-being, theology, and career trajectories of students.
+My research sits at the intersection of the sociology of religion, the sociology of work and professions, and mental health. A long-running thread examines clergy health and well-being: how the work of religious leadership shapes mental and physical health, the role of social support, and how structural racism shapes the experience of Black clergy in predominantly white denominations. Recent work designs and tests interventions to reduce clergy stress and depression, extends these questions to religious leaders in the Democratic Republic of the Congo and Tanzania, and takes up broader patterns of religious change, including denominational schism and the role of peer networks in shaping belief.
 
 Methodologically, I work with longitudinal, social network, and complex survey data. My research has been published in the *American Journal of Sociology*, *Journal for the Scientific Study of Religion*, *Sociology of Religion*, *Pastoral Psychology*, *Mental Health, Religion & Culture*, *Journal of Religion and Health*, *Review of Religious Research*, and *Obesity Reviews*, among others.
 

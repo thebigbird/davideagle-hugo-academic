@@ -13,7 +13,7 @@ abstract: ""
 summary: ""
 tags: []
 categories: []
-featured: true
+featured: false
 url_pdf: eagle-parker-asobee-worship-depression-2025.pdf
 url_code:
 url_dataset:

@@ -12,7 +12,7 @@ abstract: ""
 summary: ""
 tags: []
 categories: []
-featured: false
+featured: true
 url_pdf: roso-eagle-umc-schism-2026.pdf
 url_code:
 url_dataset:
